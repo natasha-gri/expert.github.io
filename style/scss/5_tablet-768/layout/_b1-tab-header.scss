@@ -40,13 +40,13 @@
         padding: 23px 40px;
         margin-top: 0;
         font-weight: 600;
-        color: $text-color-mebu-sub-link;;
+        color: red;
         &:hover{
-            color: $text-color-mebu-sub-link;;                
+            color: red;                
         }
         &:after{
             top: 56px;
-            background: $text-color-dark1; 
+            background: red; 
         } 
       }
       .menu-list > li:first-child > a{
