@@ -14,5 +14,27 @@ h1 {
   font-stretch: normal;
   font-style: normal;
   line-height: 110%;
-  color: #1D1D1D;
+  color: $text-h1;
+}
+h2 {
+  @extend .first-font;
+  font-size: 2.375em; //38
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 110%;
+  color: $text-h2;
+}
+
+/*************** main text */
+.text-basic,
+p {
+  @extend .second-font;
+  font-size: 1em; //16px
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 169%;
+  letter-spacing: 0.025em;
+  color: $text-basic-p;
 }

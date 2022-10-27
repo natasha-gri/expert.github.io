@@ -2,7 +2,7 @@
 /* 1) */
 html, body {
   height: 100%;
-  background-color: rgb(218, 218, 218);
+  background-color: $body-bg;
 }
 /* 2) */
 .main-container {
@@ -106,7 +106,7 @@ footer {
 .padding-block-header{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
 @media (max-width : 768px) {
   .padding-block-header{
@@ -121,18 +121,18 @@ footer {
 // }
 /* 3) для изображения*/
 .padding-block-img {
-  min-height: 200px;
+  min-height: 100px;
   padding-top: 90px;
   padding-bottom: 90px;
 }
 /* 4) для заголовка и текста*/
 .padding-block-text {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 /* 5) для заголовка и изображения*/
 .padding-block-textimg {
-  min-height: 200px;
+  min-height: 100px;
   padding-top: 70px;
   padding-bottom: 86px;
 }
