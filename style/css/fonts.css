@@ -2,34 +2,24 @@
 /* Заголовочный */
 
 @font-face {
-    font-family: 'BookmanOldStyle';
-    src: url('/font/BookmanOldStyle/BookmanOldStyle-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'BookmanOldStyle';
-    src: url('/font/BookmanOldStyle/BookmanOldStyle-Bold.woff') format('woff');
-    font-weight: bold;
+    font-family: 'Mont';
+    src: url('/font/Mont/Mont-Bold.woff') format('woff');
+    font-weight: 800;
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
-    font-family: 'BookmanOldStyle';
-    src: url('/font/BookmanOldStyle/BookmanOldStyle.woff') format('woff');
-    font-weight: 300;
+    font-family: 'Mont';
+    src: url('/font/Mont/Mont-SemiBold.woff') format('woff');
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
-    font-family: 'BookmanOldStyle';
-    src: url('/font/BookmanOldStyle/BookmanOldStyle-Italic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
+    font-family: 'Mont';
+    src: url('/font/Mont/Mont-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
     font-display: swap;
 }
 

@@ -65,14 +65,20 @@ footer {
 // ====== 2 стили ширина и границы сетки
 /* ширина + границы сетки */
 .container-rows {
-  width: 66.66%; // 1280/1920
+  width: 72.91%; // 1400/1920
   margin: 0 auto;
   outline: 1px solid rgb(216, 10, 206);
   box-sizing: border-box;
 }
+.container-rows-1670 {
+  width: 86.97%; // 1670/1920
+  margin: 0 auto;
+  outline: 1px solid rgb(216, 10, 10);
+  box-sizing: border-box;
+}
 @media (max-width : 1600px) {
   .container-rows {
-    width: 80%; // 1280/1600
+    width: 82,5%; // 1320/1600
   }
 }
 @media (max-width : 1280px) {

@@ -56,14 +56,20 @@ footer {
     height: 468px; } }
 /* ширина + границы сетки */
 .container-rows {
-  width: 66.66%;
+  width: 72.91%;
   margin: 0 auto;
   outline: 1px solid #d80ace;
   box-sizing: border-box; }
 
+.container-rows-1670 {
+  width: 86.97%;
+  margin: 0 auto;
+  outline: 1px solid #d80a0a;
+  box-sizing: border-box; }
+
 @media (max-width: 1600px) {
   .container-rows {
-    width: 80%; } }
+    width: 82,5%; } }
 @media (max-width: 1280px) {
   .container-rows {
     width: 89.53%; } }
@@ -109,40 +115,56 @@ footer {
 .blockundermenu {
   height: 75px; }
 
-.first-font, h1, h2 {
-  font-family: 'Bookman Old Style', 'Times New Roman', Times, serif; }
-
-.second-font, .text-basic, .menu-item a,
+.first-font, h1, .cover-subtitle, h2, .block-subtitle, .text-basic, .menu-item a,
 p {
+  font-family: 'Mont', Arial, Helvetica, sans-serif; }
+
+.second-font {
   font-family: 'Circe', Arial, Helvetica, sans-serif; }
 
 /********************** h1 */
 h1 {
   font-size: 4.375em;
-  font-weight: bold;
+  font-weight: 800;
   font-stretch: normal;
   font-style: normal;
   line-height: 110%;
-  color: #8b7979; }
+  color: #28468C; }
+
+.cover-subtitle {
+  font-size: 1.375em;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 140%;
+  color: #181818; }
 
 h2 {
   font-size: 2.375em;
-  font-weight: bold;
+  font-weight: 800;
   font-stretch: normal;
   font-style: normal;
   line-height: 110%;
-  color: #705555; }
+  color: #767676; }
+
+.block-subtitle {
+  font-size: 1.0625em;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 140%;
+  color: #888888; }
 
 /*************** main text */
 .text-basic, .menu-item a,
 p {
   font-size: 1em;
-  font-weight: normal;
+  font-weight: 700;
   font-stretch: normal;
   font-style: normal;
   line-height: 169%;
   letter-spacing: 0.025em;
-  color: #1D1D1D; }
+  color: #9c05ca; }
 
 /* Верхнее меню */
 /* под WP */
@@ -230,6 +252,14 @@ p {
 label,
 #menu {
   display: none; }
+
+.cover {
+  background-image: url(/img/cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  background-color: grey; }
 
 footer {
   background-color: #456497; }

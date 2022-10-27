@@ -1,5 +1,5 @@
 .first-font {
-  font-family: 'Bookman Old Style', 'Times New Roman', Times, serif;
+  font-family: 'Mont', Arial, Helvetica, sans-serif;
 }
 
 .second-font {
@@ -10,28 +10,46 @@
 h1 {
   @extend .first-font;
   font-size: 4.375em; //70
-  font-weight: bold;
+  font-weight: 800; //bold
   font-stretch: normal;
   font-style: normal;
   line-height: 110%;
   color: $text-h1;
 }
+.cover-subtitle{
+  @extend .first-font;
+  font-size: 1.375em; //22
+  font-weight: 700; //smiboold
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 140%;
+  color: $cover-subtitle;
+}
 h2 {
   @extend .first-font;
   font-size: 2.375em; //38
-  font-weight: bold;
+  font-weight: 800;
   font-stretch: normal;
   font-style: normal;
   line-height: 110%;
   color: $text-h2;
 }
+.block-subtitle{
+  @extend .first-font;
+  font-size: 1.0625em; //17
+  font-weight: 700; //smiboold
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 140%;
+  color: $block-subtitle;
+}
 
 /*************** main text */
 .text-basic,
 p {
-  @extend .second-font;
+  @extend .first-font;
   font-size: 1em; //16px
-  font-weight: normal;
+  font-weight: 700; //regular
   font-stretch: normal;
   font-style: normal;
   line-height: 169%;
