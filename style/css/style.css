@@ -64,7 +64,6 @@ footer {
 .container-rows-1670 {
   width: 86.97%;
   margin: 0 auto;
-  outline: 1px solid #d80a0a;
   box-sizing: border-box; }
 
 @media (max-width: 1600px) {
@@ -112,11 +111,14 @@ footer {
   padding-top: 70px;
   padding-bottom: 86px; }
 
+.padding-block-cover {
+  padding-top: 20px; }
+
 .blockundermenu {
   height: 75px; }
 
 .first-font, h1, .cover-subtitle, h2, .block-subtitle, .text-basic, .menu-item a,
-p {
+p, .services-cards p {
   font-family: 'Mont', Arial, Helvetica, sans-serif; }
 
 .second-font {
@@ -166,36 +168,106 @@ p {
   letter-spacing: 0.025em;
   color: #9c05ca; }
 
+.services-cards p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 120%;
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: white; }
+
+.icon-vk {
+  width: 25px;
+  height: 25px;
+  fill: #8383B6; }
+
+.icon-1c {
+  width: 150px;
+  height: 100px;
+  fill: #ffffff; }
+
+.icon-accounting {
+  width: 100px;
+  height: 100px;
+  fill: #ffffff; }
+
+.icon-box-office {
+  width: 100px;
+  height: 100px;
+  fill: #ffffff; }
+
+.icon-computer-service {
+  width: 100px;
+  height: 100px;
+  fill: #ffffff; }
+
+.icon-creating-website {
+  width: 100px;
+  height: 100px;
+  fill: #ffffff; }
+
+.icon-it-education {
+  width: 100px;
+  height: 100px;
+  fill: #ffffff; }
+
+.icon-benefit-15 {
+  width: 165px;
+  height: 165px;
+  fill: #28468C; }
+
 /* Верхнее меню */
 /* под WP */
 .top-header {
   width: 100%;
   min-height: 85px;
-  background-color: grey; }
-  .top-header-content {
+  background-color: white; }
+  .top-header-top {
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .top-header-top-logowrap {
+      width: 30%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .top-header-top-logowrap-description {
+        margin-left: 20px; }
+    .top-header-top-communications {
+      width: 70%;
+      display: flex;
+      column-gap: 40px;
+      justify-content: flex-end;
+      align-items: center; }
+  .top-header-menu {
+    height: 65px;
     display: flex;
     justify-content: center;
-    align-items: center; }
-    .top-header-content-logocont {
-      width: 142px;
-      display: flex;
-      justify-content: center; }
+    align-items: center;
+    background: linear-gradient(89.97deg, #4469BF 0.04%, #8383B6 98.83%);
+    border-radius: 5px; }
 
 .mobile-logo {
   display: none; }
+
+.main-header-menu {
+  width: 70%; }
 
 .menu li {
   position: relative; }
 
 .menu-list {
   display: flex;
+  justify-content: space-between;
   list-style: none; }
 
 .menu-list > li:hover .sub-menu {
   display: block; }
 
 .menu-item a {
-  min-width: 125px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -204,9 +276,9 @@ p {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #32e080; }
+  color: #ffffff; }
   .menu-item a:hover {
-    color: #f7d934; }
+    color: #ffffff; }
     .menu-item a:hover::after {
       transform: translateY(2px) scale(1); }
   .menu-item a:after {
@@ -216,7 +288,7 @@ p {
     width: 55%;
     top: 22px;
     height: 1px;
-    background: #f7d934;
+    background: #ffffff;
     transform: translateY(2px) scale(0);
     -webkit-transition: all 0.1s;
     transition: all 0.1s; }
@@ -231,21 +303,22 @@ p {
 .sub-menu > li {
   margin: 0 0 0 0;
   padding: 15px 10px 16px 10px;
-  background-color: #a99f68;
+  background-color: #ffffff;
   backdrop-filter: blur(3px); }
   .sub-menu > li:hover {
-    background-color: #a8b9b3a3; }
+    background-color: #ced9f1; }
 
 .sub-menu > li > a {
+  min-width: 250px;
   margin-top: 0;
-  color: #a21575;
+  color: #134cd1;
   font-size: 1.2em;
   font-weight: 400;
   text-align: center;
   line-height: 1em;
   text-transform: lowercase; }
   .sub-menu > li > a:hover {
-    color: #a21575; }
+    color: #134cd1; }
   .sub-menu > li > a:after {
     content: none; }
 
@@ -254,12 +327,62 @@ label,
   display: none; }
 
 .cover {
+  height: 757px;
+  margin-bottom: 100px;
+  position: relative;
   background-image: url(/img/cover.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 5px;
   background-color: grey; }
+  .cover-header {
+    display: flex;
+    justify-content: center; }
+    .cover-header-wrap {
+      width: 83.83%;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+    .cover-header-title {
+      margin-bottom: 45px; }
+    .cover-header-subtitle {
+      display: flex; }
+      .cover-header-subtitle p:nth-child(1) {
+        width: 40%; }
+      .cover-header-subtitle p:nth-child(2) {
+        width: 55%; }
+  .cover-footer {
+    display: flex;
+    justify-content: center;
+    position: absolute; }
+    .cover-footer-wrap {
+      width: 83.83%;
+      display: flex; }
+
+.benefit-cover {
+  width: 30%;
+  display: flex;
+  align-items: flex-end; }
+
+.services-cards {
+  width: 70%;
+  display: flex;
+  row-gap: 10px;
+  column-gap: 1%;
+  flex-wrap: wrap; }
+  .services-cards-card {
+    width: 32.6666%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: rgba(0, 42, 143, 0.67); }
+    .services-cards-card:hover {
+      transform: scale(1.025);
+      transition: ease-out 0.1s; }
 
 footer {
   background-color: #456497; }
@@ -308,12 +431,12 @@ footer {
     padding: 23px 40px;
     margin-top: 0;
     font-weight: 600;
-    color: #a21575; }
+    color: #134cd1; }
     .menu-item a:hover {
-      color: #a21575; }
+      color: #134cd1; }
     .menu-item a:after {
       top: 56px;
-      background: #a21575; }
+      background: #134cd1; }
 
   .menu-list > li:first-child > a {
     padding-top: 40px; }
@@ -331,7 +454,7 @@ footer {
 
   .sub-menu > li {
     padding: 0 0 0 0;
-    background-color: #a99f68; }
+    background-color: #ffffff; }
 
   .main-header-menu-label {
     display: block;

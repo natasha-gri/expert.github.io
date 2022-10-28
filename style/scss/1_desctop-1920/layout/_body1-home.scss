@@ -1,8 +1,71 @@
 .cover{
+  height: 757px;
+  margin-bottom: 100px;
+  position: relative;
   background-image: url(/img/cover.jpg);
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 5px;
   background-color: grey;
+
+  &-header{    
+    display: flex;
+    justify-content: center;
+    &-wrap{
+      width: 83.83%;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &-title{
+      margin-bottom: 45px;
+    }
+    &-subtitle{
+      display: flex;
+      & p:nth-child(1){
+        width: 40%;
+      }
+      & p:nth-child(2){
+        width: 55%;
+      }
+    }
+  }
+
+  &-footer{    
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    &-wrap{
+      width: 83.83%;
+      display: flex;
+    }
+  }
+}
+.benefit-cover{
+  width: 30%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.services-cards{
+  width: 70%;
+  display: flex;
+  row-gap: 10px;
+  column-gap: 1%;
+  flex-wrap: wrap;
+  &-card{
+    width: 32.6666%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: $services-card;
+    &:hover{
+      transform: scale(1.025);
+      transition: ease-out 0.1s;
+    }
+  }
 }

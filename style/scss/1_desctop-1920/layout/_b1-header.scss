@@ -3,16 +3,36 @@
 .top-header{
   width: 100%;
   min-height: 85px;
-  background-color: grey;
-  &-content{
+  background-color: rgb(255, 255, 255);
+  &-top{
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-logowrap {
+      width: 30%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &-description{
+        margin-left: 20px;
+      }
+    }
+    &-communications{
+      width: 70%;
+      display: flex;
+      column-gap: 40px;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+  &-menu{
+    height: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
-    &-logocont {
-      width: 142px;
-      display: flex;
-      justify-content: center;
-    }
+    background: $bg-gradient-1;
+    border-radius: 5px;
   }
 }
 
@@ -21,11 +41,15 @@
 }
 
 // меню под WP
+.main-header-menu{
+  width: 70%;
+}
 .menu li {
   position: relative;
 }
 .menu-list{
   display: flex;
+  justify-content: space-between;
   list-style: none;
 }
 .menu-list>li {
@@ -34,7 +58,7 @@
   }
 }
 .menu-item a{
-  min-width: 125px;
+  //min-width: 125px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,10 +102,11 @@
   background-color: $sub-menu-bg;
   backdrop-filter: blur(3px);
   &:hover{
-    background-color: #a8b9b3a3;
+    background-color: $sub-menu-link-hover;
   }
 }
 .sub-menu>li>a{
+  min-width: 250px;
   margin-top: 0;
   color: $sub-menu-link;
   font-size: 1.2em;

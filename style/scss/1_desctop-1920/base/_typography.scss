@@ -56,3 +56,14 @@ p {
   letter-spacing: 0.025em;
   color: $text-basic-p;
 }
+.services-cards p{
+  @extend .first-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 120%;
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $services-cards-text;
+}

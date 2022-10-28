@@ -73,7 +73,7 @@ footer {
 .container-rows-1670 {
   width: 86.97%; // 1670/1920
   margin: 0 auto;
-  outline: 1px solid rgb(216, 10, 10);
+  //outline: 1px solid rgb(216, 10, 10);
   box-sizing: border-box;
 }
 @media (max-width : 1600px) {
@@ -141,6 +141,9 @@ footer {
   min-height: 100px;
   padding-top: 70px;
   padding-bottom: 86px;
+}
+.padding-block-cover {
+  padding-top: 20px;
 }
 
 //============================
