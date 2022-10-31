@@ -561,7 +561,7 @@ label,
     position: relative;
     padding-right: 24px; }
     .benefit-team-subtitle:after {
-      content: url(/img/arrow-down.svg);
+      content: url(../../img/arrow-down.svg);
       position: absolute;
       width: 16px;
       bottom: 0;
@@ -571,7 +571,7 @@ main {
   background-image: url(../../img/ways-footer.svg);
   background-size: 50%;
   background-repeat: no-repeat;
-  background-position: 100% 108%; }
+  background-position: 100% 109%; }
 
 footer {
   background-color: #DEDEDE; }

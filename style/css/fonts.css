@@ -3,21 +3,21 @@
 
 @font-face {
     font-family: 'Mont';
-    src: url('/font/Mont/Mont-Bold.woff') format('woff');
+    src: url('../../font/Mont/Mont-Bold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Mont';
-    src: url('/font/Mont/Mont-SemiBold.woff') format('woff');
+    src: url('../../font/Mont/Mont-SemiBold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Mont';
-    src: url('/font/Mont/Mont-Regular.woff') format('woff');
+    src: url('../../font/Mont/Mont-Regular.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -26,7 +26,7 @@
 /* Цифры */
 @font-face {
     font-family: 'OlympicHeadline';
-    src: url('/font/Olympic Headline/OlympicHeadline-Regular.woff') format('woff');
+    src: url('../../font/Olympic Headline/OlympicHeadline-Regular.woff') format('woff');
     font-weight: regular;
     font-style: normal;
     font-display: swap;
