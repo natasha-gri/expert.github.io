@@ -125,3 +125,22 @@ p {
   text-align: right;
   color: $text-h1;
 }
+// ***************** footer
+.footer-cont-copyright-text p{
+  @extend .first-font;
+font-style: normal;
+font-weight: 600;
+font-size: 0.875em;
+line-height: 110%;
+
+color: #787878;
+}
+.footer-cont-contacts p{
+  @extend .first-font;
+font-style: normal;
+font-weight: 600;
+font-size: 0.875em;
+line-height: 110%;
+
+color: #787878;
+}

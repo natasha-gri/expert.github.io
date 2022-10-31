@@ -10,15 +10,15 @@ html, body {
 }
 /* 3) + цвет фона + центрирование содержимого*/
 footer {
-  height: 276px;
-  margin-top: -276px;
+  height: 114px;
+  margin-top: -114px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 /* 4) */
 .clr {
-  height: 276px;
+  height: 114px;
 }
 @media (max-width : 1024px) {
   footer{

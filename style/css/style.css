@@ -12,15 +12,15 @@ html, body {
 
 /* 3) + цвет фона + центрирование содержимого*/
 footer {
-  height: 276px;
-  margin-top: -276px;
+  height: 114px;
+  margin-top: -114px;
   display: flex;
   flex-direction: column;
   justify-content: center; }
 
 /* 4) */
 .clr {
-  height: 276px; }
+  height: 114px; }
 
 @media (max-width: 1024px) {
   footer {
@@ -120,7 +120,7 @@ footer {
   height: 75px; }
 
 .first-font, h1, .cover-subtitle, h2, .block-subtitle, .top-header-top-logowrap-description p, .top-header-top-communications p, .text-basic,
-p, .services-cards p, .team-persons-wrap-person-footer p:nth-child(1), .team-persons-wrap-person-footer p:nth-child(2), .benefit-team-subtitle, .menu-item a {
+p, .services-cards p, .team-persons-wrap-person-footer p:nth-child(1), .team-persons-wrap-person-footer p:nth-child(2), .benefit-team-subtitle, .footer-cont-copyright-text p, .footer-cont-contacts p, .menu-item a {
   font-family: 'Mont', Arial, Helvetica, sans-serif; }
 
 .second-font, .benefit-team-number {
@@ -228,10 +228,44 @@ p {
   text-align: right;
   color: #28468C; }
 
+.footer-cont-copyright-text p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875em;
+  line-height: 110%;
+  color: #787878; }
+
+.footer-cont-contacts p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875em;
+  line-height: 110%;
+  color: #787878; }
+
 .icon-vk {
   width: 24px;
   height: 24px;
   fill: #8383B6; }
+
+.icon-vk-footer {
+  width: 24px;
+  height: 24px;
+  fill: #28468C; }
+
+.icon-email {
+  width: 19px;
+  height: 19px;
+  fill: #28468C; }
+
+.icon-location {
+  width: 26px;
+  height: 26px;
+  fill: #28468C; }
+
+.icon-phone {
+  width: 24px;
+  height: 24px;
+  fill: #28468C; }
 
 .icon-1c {
   width: 112px;
@@ -402,9 +436,12 @@ label,
 #menu {
   display: none; }
 
+.hidden {
+  display: none; }
+
 .cover {
   height: 578px;
-  background-image: url(/img/cover.jpg);
+  background-image: url(../../img/cover.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -459,7 +496,7 @@ label,
       transition: ease-out 0.1s; }
 
 .team {
-  background-image: url(/img/ways-team.svg);
+  background-image: url(../../img/ways-team.svg);
   background-size: 65%;
   background-repeat: no-repeat;
   background-position: 85% -46%; }
@@ -491,7 +528,7 @@ label,
         .team-persons-wrap-person-header-biz p {
           width: 275px;
           position: absolute;
-          top: 124px;
+          top: 132px;
           left: -130px;
           rotate: 270deg; }
       .team-persons-wrap-person-header-img {
@@ -503,7 +540,7 @@ label,
         .team-persons-wrap-person-header-img svg {
           position: absolute;
           right: 0;
-          bottom: 0; }
+          bottom: 1px; }
     .team-persons-wrap-person-footer p:nth-child(1) {
       margin-bottom: 9px; }
     .team-persons-wrap-person-footer p:nth-child(2) {
@@ -530,12 +567,36 @@ label,
       bottom: 0;
       right: 0; }
 
+main {
+  background-image: url(../../img/ways-footer.svg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 100% 108%; }
+
 footer {
-  background-color: #456497; }
+  background-color: #DEDEDE; }
 
 .footer-cont {
   display: flex;
   justify-content: space-between; }
+  .footer-cont-copyright {
+    width: 30%;
+    display: flex;
+    column-gap: 5%;
+    align-items: center; }
+  .footer-cont-contacts {
+    width: 60%;
+    margin-top: 10px;
+    display: flex;
+    column-gap: 3%; }
+    .footer-cont-contacts div {
+      width: 22.75%;
+      display: flex;
+      column-gap: 5%; }
+      .footer-cont-contacts div svg {
+        width: 20%; }
+      .footer-cont-contacts div p {
+        width: 80%; }
 
 /* 2_desctop-от 1280 до 1600 */
 /* 3_desctop-от 1024 до 1280 */
