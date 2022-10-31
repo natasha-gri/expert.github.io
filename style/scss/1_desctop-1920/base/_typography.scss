@@ -3,31 +3,31 @@
 }
 
 .second-font {
-  font-family: 'Circe', Arial, Helvetica, sans-serif;
+  font-family: 'OlympicHeadline', Arial, Helvetica, sans-serif;
 }
 
-/********************** h1 */
+// ********************** h1
 h1 {
   @extend .first-font;
-  font-size: 4.375em; //70
+  font-size: 4.15em; //70
   font-weight: 800; //bold
   font-stretch: normal;
   font-style: normal;
-  line-height: 110%;
+  line-height: 102%;
   color: $text-h1;
 }
 .cover-subtitle{
   @extend .first-font;
-  font-size: 1.375em; //22
+  font-size: 0.95em; //22
   font-weight: 700; //smiboold
   font-stretch: normal;
   font-style: normal;
-  line-height: 140%;
+  line-height: 135%;
   color: $cover-subtitle;
 }
 h2 {
   @extend .first-font;
-  font-size: 2.375em; //38
+  font-size: 2.5em; //0
   font-weight: 800;
   font-stretch: normal;
   font-style: normal;
@@ -36,15 +36,24 @@ h2 {
 }
 .block-subtitle{
   @extend .first-font;
-  font-size: 1.0625em; //17
+  font-size: 1em; //17
   font-weight: 700; //smiboold
   font-stretch: normal;
   font-style: normal;
-  line-height: 140%;
-  color: $block-subtitle;
+  line-height: 120%;
+  color: $text-h2;
+}
+// ****************** menu
+.top-header-top-logowrap-description p, .top-header-top-communications p{
+  @extend .first-font;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75em; //12px
+  line-height: 18px;  
+  color: $text-h2;
 }
 
-/*************** main text */
+// *************** main text
 .text-basic,
 p {
   @extend .first-font;
@@ -60,10 +69,59 @@ p {
   @extend .first-font;
   font-style: normal;
   font-weight: 700;
-  font-size: 1em;
+  font-size: 0.86em;
   line-height: 120%;
   text-align: right;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: $services-cards-text;
+}
+// ***************** team
+.team-persons-wrap-person-header-biz P{
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15.9909px;
+  line-height: 103.52%;
+  text-align: right;
+  color: $text-h1;
+}
+.team-persons-wrap-person-footer p:nth-child(1){
+  @extend .first-font;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.375em;
+  line-height: 103.52%;
+  text-align: right;
+  color: $text-h2;
+}
+.team-persons-wrap-person-footer p:nth-child(2){
+  @extend .first-font;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75em;
+  line-height: 120%;
+  text-align: right;
+  color: $text-h2;
+}
+// ***************** benefit
+.benefit-team-number{
+  @extend .second-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 264px;
+  letter-spacing: -0.35px;
+  line-height: 103.52%;
+  color: $benefit-color-1;
+}
+.benefit-team-subtitle{
+  @extend .first-font;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2em;
+  letter-spacing: -0.15px;
+  line-height: 103.52%;
+  text-transform: lowercase;
+  text-align: right;
+  color: $text-h1;
 }

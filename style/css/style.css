@@ -58,7 +58,6 @@ footer {
 .container-rows {
   width: 72.91%;
   margin: 0 auto;
-  outline: 1px solid #d80ace;
   box-sizing: border-box; }
 
 .container-rows-1670 {
@@ -112,37 +111,39 @@ footer {
   padding-bottom: 86px; }
 
 .padding-block-cover {
-  padding-top: 20px; }
+  padding-top: 22px; }
+
+.padding-block-team {
+  padding-top: 155px; }
 
 .blockundermenu {
   height: 75px; }
 
-.first-font, h1, .cover-subtitle, h2, .block-subtitle, .text-basic, .menu-item a,
-p, .services-cards p {
+.first-font, h1, .cover-subtitle, h2, .block-subtitle, .top-header-top-logowrap-description p, .top-header-top-communications p, .text-basic,
+p, .services-cards p, .team-persons-wrap-person-footer p:nth-child(1), .team-persons-wrap-person-footer p:nth-child(2), .benefit-team-subtitle, .menu-item a {
   font-family: 'Mont', Arial, Helvetica, sans-serif; }
 
-.second-font {
-  font-family: 'Circe', Arial, Helvetica, sans-serif; }
+.second-font, .benefit-team-number {
+  font-family: 'OlympicHeadline', Arial, Helvetica, sans-serif; }
 
-/********************** h1 */
 h1 {
-  font-size: 4.375em;
+  font-size: 4.15em;
   font-weight: 800;
   font-stretch: normal;
   font-style: normal;
-  line-height: 110%;
+  line-height: 102%;
   color: #28468C; }
 
 .cover-subtitle {
-  font-size: 1.375em;
+  font-size: 0.95em;
   font-weight: 700;
   font-stretch: normal;
   font-style: normal;
-  line-height: 140%;
+  line-height: 135%;
   color: #181818; }
 
 h2 {
-  font-size: 2.375em;
+  font-size: 2.5em;
   font-weight: 800;
   font-stretch: normal;
   font-style: normal;
@@ -150,15 +151,21 @@ h2 {
   color: #767676; }
 
 .block-subtitle {
-  font-size: 1.0625em;
+  font-size: 1em;
   font-weight: 700;
   font-stretch: normal;
   font-style: normal;
-  line-height: 140%;
-  color: #888888; }
+  line-height: 120%;
+  color: #767676; }
 
-/*************** main text */
-.text-basic, .menu-item a,
+.top-header-top-logowrap-description p, .top-header-top-communications p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75em;
+  line-height: 18px;
+  color: #767676; }
+
+.text-basic,
 p {
   font-size: 1em;
   font-weight: 700;
@@ -171,52 +178,116 @@ p {
 .services-cards p {
   font-style: normal;
   font-weight: 700;
-  font-size: 1em;
+  font-size: 0.86em;
   line-height: 120%;
   text-align: right;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: white; }
 
+.team-persons-wrap-person-header-biz P {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15.9909px;
+  line-height: 103.52%;
+  text-align: right;
+  color: #28468C; }
+
+.team-persons-wrap-person-footer p:nth-child(1) {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.375em;
+  line-height: 103.52%;
+  text-align: right;
+  color: #767676; }
+
+.team-persons-wrap-person-footer p:nth-child(2) {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75em;
+  line-height: 120%;
+  text-align: right;
+  color: #767676; }
+
+.benefit-team-number {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 264px;
+  letter-spacing: -0.35px;
+  line-height: 103.52%;
+  color: rgba(92, 56, 146, 0.17); }
+
+.benefit-team-subtitle {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2em;
+  letter-spacing: -0.15px;
+  line-height: 103.52%;
+  text-transform: lowercase;
+  text-align: right;
+  color: #28468C; }
+
 .icon-vk {
-  width: 25px;
-  height: 25px;
+  width: 24px;
+  height: 24px;
   fill: #8383B6; }
 
 .icon-1c {
-  width: 150px;
-  height: 100px;
+  width: 112px;
+  height: 50px;
   fill: #ffffff; }
 
 .icon-accounting {
   width: 100px;
-  height: 100px;
+  height: 76px;
   fill: #ffffff; }
 
 .icon-box-office {
   width: 100px;
-  height: 100px;
+  height: 76px;
   fill: #ffffff; }
 
 .icon-computer-service {
   width: 100px;
-  height: 100px;
+  height: 76px;
   fill: #ffffff; }
 
 .icon-creating-website {
   width: 100px;
-  height: 100px;
+  height: 76px;
   fill: #ffffff; }
 
 .icon-it-education {
   width: 100px;
-  height: 100px;
+  height: 76px;
   fill: #ffffff; }
 
 .icon-benefit-15 {
-  width: 165px;
-  height: 165px;
+  width: 157px;
+  height: 194px;
   fill: #28468C; }
+
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  height: auto; }
+
+.icon-left-arrow {
+  width: 35px;
+  height: 35px; }
+
+.icon-right-arrow {
+  width: 35px;
+  height: 35px; }
+
+.icon-blue-arrow-right {
+  width: 47px;
+  height: 47px; }
+
+.icon-arrow-down {
+  width: 55px; }
 
 /* Верхнее меню */
 /* под WP */
@@ -225,12 +296,12 @@ p {
   min-height: 85px;
   background-color: white; }
   .top-header-top {
-    padding: 10px 0 10px 0;
+    padding: 8px 0 8px 0;
     display: flex;
     justify-content: space-between;
     align-items: center; }
     .top-header-top-logowrap {
-      width: 30%;
+      width: 25%;
       display: flex;
       justify-content: space-between;
       align-items: center; }
@@ -239,11 +310,11 @@ p {
     .top-header-top-communications {
       width: 70%;
       display: flex;
-      column-gap: 40px;
+      column-gap: 55px;
       justify-content: flex-end;
       align-items: center; }
   .top-header-menu {
-    height: 65px;
+    height: 54px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,7 +325,7 @@ p {
   display: none; }
 
 .main-header-menu {
-  width: 70%; }
+  width: 60%; }
 
 .menu li {
   position: relative; }
@@ -272,7 +343,12 @@ p {
   align-items: center;
   justify-content: center;
   position: relative;
-  font-weight: 300;
+  font-size: 0.875em;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 169%;
+  letter-spacing: 0.025em;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -327,9 +403,7 @@ label,
   display: none; }
 
 .cover {
-  height: 757px;
-  margin-bottom: 100px;
-  position: relative;
+  height: 578px;
   background-image: url(/img/cover.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -341,7 +415,7 @@ label,
     justify-content: center; }
     .cover-header-wrap {
       width: 83.83%;
-      height: 500px;
+      height: 378px;
       display: flex;
       flex-direction: column;
       justify-content: center; }
@@ -354,9 +428,9 @@ label,
       .cover-header-subtitle p:nth-child(2) {
         width: 55%; }
   .cover-footer {
+    margin-top: -21px;
     display: flex;
-    justify-content: center;
-    position: absolute; }
+    justify-content: center; }
     .cover-footer-wrap {
       width: 83.83%;
       display: flex; }
@@ -383,6 +457,78 @@ label,
     .services-cards-card:hover {
       transform: scale(1.025);
       transition: ease-out 0.1s; }
+
+.team {
+  background-image: url(/img/ways-team.svg);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: 85% -46%; }
+
+.team-header {
+  width: 76%;
+  margin-bottom: 52px;
+  display: flex; }
+  .team-header h2 {
+    width: 40%; }
+  .team-header div {
+    width: 60%;
+    margin-top: 10px; }
+
+.team-persons {
+  display: flex;
+  position: relative; }
+  .team-persons-wrap {
+    width: 75%;
+    display: flex;
+    column-gap: 3%; }
+    .team-persons-wrap-person-header {
+      min-height: 250px;
+      margin-bottom: 13px;
+      display: flex; }
+      .team-persons-wrap-person-header-biz {
+        width: 25px;
+        position: relative; }
+        .team-persons-wrap-person-header-biz p {
+          width: 275px;
+          position: absolute;
+          top: 124px;
+          left: -130px;
+          rotate: 270deg; }
+      .team-persons-wrap-person-header-img {
+        position: relative; }
+        .team-persons-wrap-person-header-img img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%; }
+        .team-persons-wrap-person-header-img svg {
+          position: absolute;
+          right: 0;
+          bottom: 0; }
+    .team-persons-wrap-person-footer p:nth-child(1) {
+      margin-bottom: 9px; }
+    .team-persons-wrap-person-footer p:nth-child(2) {
+      padding-left: 10%; }
+
+.team-persons-buttons {
+  margin: 0 auto; }
+
+.benefit-team {
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+  .benefit-team-number {
+    position: absolute;
+    bottom: -34px;
+    right: 46px; }
+  .benefit-team-subtitle {
+    position: relative;
+    padding-right: 24px; }
+    .benefit-team-subtitle:after {
+      content: url(/img/arrow-down.svg);
+      position: absolute;
+      width: 16px;
+      bottom: 0;
+      right: 0; }
 
 footer {
   background-color: #456497; }

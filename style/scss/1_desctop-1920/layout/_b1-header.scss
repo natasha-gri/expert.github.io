@@ -5,12 +5,12 @@
   min-height: 85px;
   background-color: rgb(255, 255, 255);
   &-top{
-    padding: 10px 0 10px 0;
+    padding: 8px 0 8px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     &-logowrap {
-      width: 30%;
+      width: 25%;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -21,13 +21,13 @@
     &-communications{
       width: 70%;
       display: flex;
-      column-gap: 40px;
+      column-gap: 55px;
       justify-content: flex-end;
       align-items: center;
     }
   }
   &-menu{
-    height: 65px;
+    height: 54px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@
 
 // меню под WP
 .main-header-menu{
-  width: 70%;
+  width: 60%;
 }
 .menu li {
   position: relative;
@@ -64,8 +64,13 @@
   justify-content: center;
   position: relative;
   // настройки шрифта
-  @extend .text-basic;
-  font-weight: 300;
+  @extend .first-font;
+  font-size: 0.875em; //14px
+  font-weight: 600; //regular
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 169%;
+  letter-spacing: 0.025em;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.05em;

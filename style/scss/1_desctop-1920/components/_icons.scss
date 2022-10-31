@@ -1,40 +1,63 @@
 .icon-vk{
-  width: 25px;
-  height: 25px;
+  width: 24px;
+  height: 24px;
   fill: $icon-color-purple;
 }
 .icon-1c{
-  width: 150px;
-  height: 100px;
+  width: 112px;
+  height: 50px;
   fill: $icon-color-white;
 }
 .icon-accounting{
   width: 100px;
-  height: 100px;
+  height: 76px;
   fill: $icon-color-white;
 }
 .icon-box-office{
   width: 100px;
-  height: 100px;
+  height: 76px;
   fill: $icon-color-white;
 }
 .icon-computer-service{
   width: 100px;
-  height: 100px;
+  height: 76px;
   fill: $icon-color-white;
 }
 .icon-creating-website{
   width: 100px;
-  height: 100px;
+  height: 76px;
   fill: $icon-color-white;
 }
 .icon-it-education{
   width: 100px;
-  height: 100px;
+  height: 76px;
   fill: $icon-color-white;
 }
 .icon-benefit-15{
-  width: 165px;
-  height: 165px;
+  width: 157px;
+  height: 194px;
   fill: $icon-color-blue;
+}
+
+button{
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  height: auto;
+}
+.icon-left-arrow{
+  width: 35px;
+  height: 35px;
+}
+.icon-right-arrow{
+  width: 35px;
+  height: 35px;
+}
+
+.icon-blue-arrow-right{
+  width: 47px;
+  height: 47px;
+}
+.icon-arrow-down{
+  width: 55px;
 }

@@ -1,7 +1,7 @@
 .cover{
-  height: 757px;
-  margin-bottom: 100px;
-  position: relative;
+  height: 578px;
+  //margin-bottom: 100px;
+  //position: relative;
   background-image: url(/img/cover.jpg);
   background-position: center; 
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@
     justify-content: center;
     &-wrap{
       width: 83.83%;
-      height: 500px;
+      height: 378px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -34,9 +34,11 @@
   }
 
   &-footer{    
+    margin-top: -21px;
     display: flex;
     justify-content: center;
-    position: absolute;
+    //position: absolute;
+    //bottom: -38px;
     &-wrap{
       width: 83.83%;
       display: flex;
@@ -66,6 +68,102 @@
     &:hover{
       transform: scale(1.025);
       transition: ease-out 0.1s;
+    }
+  }
+}
+
+.team{
+  background-image: url(/img/ways-team.svg);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: 85% -46%;
+}
+
+.team-header{
+  width: 76%;
+  margin-bottom: 52px;
+  display: flex;
+  & h2{
+    width: 40%;
+  }
+  & div {
+    width: 60%;
+    margin-top: 10px;
+  }
+}
+
+.team-persons{
+  display: flex;
+  position: relative;
+  &-wrap{
+    width: 75%;
+    display: flex;
+    column-gap: 3%;
+    &-person-header{
+      min-height: 250px;  
+      margin-bottom: 13px;    
+      display: flex;
+
+      &-biz{
+      width: 25px;
+      position: relative;
+        & p{  
+        width: 275px;
+        position: absolute;
+        top: 124px;
+        left: -130px;
+        rotate: 270deg;
+        }  
+      }
+      
+      &-img{        
+        position: relative;
+        & img{
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        };
+        & svg{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        
+      }
+      }
+    }
+    &-person-footer{
+      & p:nth-child(1){
+        margin-bottom: 9px;
+      }
+      & p:nth-child(2){
+        padding-left: 10%;
+      }
+    }
+  }
+}
+
+.team-persons-buttons{
+ margin: 0 auto;
+}
+
+.benefit-team{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  &-number{
+    position: absolute;
+    bottom: -34px;
+    right: 46px;
+  }
+  &-subtitle{
+    position: relative;
+    padding-right: 24px;
+    &:after{
+      content: url(/img/arrow-down.svg);
+      position: absolute;
+      width: 16px;
+      bottom: 0;
+      right: 0;
     }
   }
 }
