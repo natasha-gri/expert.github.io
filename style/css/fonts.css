@@ -1,4 +1,3 @@
-/* Подключаем шрифты */
 /* Заголовочный и основной */
 
 @font-face {
@@ -24,6 +23,7 @@
 }
 
 /* Цифры */
+
 @font-face {
     font-family: 'OlympicHeadline';
     src: url('../../font/Olympic Headline/OlympicHeadline-Regular.woff') format('woff');
