@@ -26,9 +26,10 @@ const swiperlients2 = new Swiper('.v2-clients-slider', {
     // отключить после ручного переключения
     disableOnInteraction: false
   },
-  speed: 150000,
+  speed: 110000,
   spaceBetween: 10,
-  slidesPerView: 5.7, 
+  slidesPerView: 6.7, 
   grabCursor: false,
   slidesPerGroup: 15,
+  simulateTouch: false,
 });
