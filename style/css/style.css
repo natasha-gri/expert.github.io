@@ -555,9 +555,9 @@ label,
 
 .team {
   background-image: url(../../img/ways-team.svg);
-  background-size: 65%;
+  background-size: 71%;
   background-repeat: no-repeat;
-  background-position: 85% -46%; }
+  background-position: 100% 0%; }
 
 .team-header {
   width: 76%;
@@ -707,9 +707,9 @@ a.page-numbers {
 
 main {
   background-image: url(../../img/ways-footer.svg);
-  background-size: 50%;
+  background-size: 76%;
   background-repeat: no-repeat;
-  background-position: 100% 109%; }
+  background-position: 100% 101%; }
 
 footer {
   background-color: #DEDEDE; }
