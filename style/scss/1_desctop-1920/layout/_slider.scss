@@ -1,0 +1,42 @@
+// Слайдер клиентов
+.swiper {
+}
+.swiper-slide{
+  min-width: 0;
+}
+// 
+.v-clients-slider{
+  height: 57px;
+  background: $bg-gradient-1;
+}
+.v-clents-wrapper{
+  display: flex;
+}
+.v-clients-slide{
+ display: flex;
+ align-content: center;
+ justify-content: center;
+}
+.v-clients-slide{
+  & img{
+    width: 50%;
+  }
+}
+// 
+.v2-clients-slider{
+  height: 57px;
+  background: $footer-bg;
+}
+.v2-clents-wrapper{
+  display: flex;
+}
+.v2-clients-slide{
+ display: flex;
+ align-content: center;
+ justify-content: center;
+}
+.v2-clients-slide{
+  & img{
+    width: 55%;
+  }
+}

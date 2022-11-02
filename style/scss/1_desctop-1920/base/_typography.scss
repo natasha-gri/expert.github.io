@@ -93,7 +93,7 @@ p {
   font-size: 1.375em;
   line-height: 103.52%;
   text-align: right;
-  color: $text-h2;
+  color: $text-basic-p;
 }
 .team-persons-wrap-person-footer p:nth-child(2){
   @extend .first-font;
@@ -102,7 +102,31 @@ p {
   font-size: 0.75em;
   line-height: 120%;
   text-align: right;
-  color: $text-h2;
+  color: $text-basic-p;
+}
+// ***************** news
+.news__item-img__date{
+  @extend .first-font;
+  font-style: normal;
+  font-weight: 0.875em; //14
+  line-height: 120%;
+  color: $text-basic-p;
+}
+.news__item__footer p:nth-child(1){
+  @extend .first-font;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1em;
+  line-height: 120%;
+  color: $text-h1;
+}
+.news__item__footer p:nth-child(2){
+  @extend .first-font;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75em;
+  line-height: 120%;
+  color: $text-basic-p;
 }
 // ***************** benefit
 .benefit-team-number{
@@ -125,6 +149,44 @@ p {
   text-align: right;
   color: $text-h1;
 }
+.benefit-news__number{
+  @extend .second-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 264px;
+  letter-spacing: -0.35px;
+  line-height: 103.52%;
+  color: $benefit-color-1;
+}
+.benefit-news__subtitle p:nth-child(1){
+  @extend .second-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 87.9328px;
+  line-height: 103.52%;
+  text-align: right;
+  color: rgba(92, 56, 146, 0.17);
+}
+.benefit-news__subtitle p:nth-child(2){
+  @extend .second-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.8054px;
+  line-height: 103.52%;
+  text-align: right;
+  text-transform: uppercase;
+  color: #28468C;
+}
+.benefit-news__subtitle p:nth-child(3){
+  @extend .second-font;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 103.52%;
+  text-align: right;
+  text-transform: lowercase;
+  color: #28468C;
+}
 // ***************** footer
 .footer-cont-copyright-text p{
   @extend .first-font;
@@ -137,10 +199,10 @@ color: #787878;
 }
 .footer-cont-contacts p{
   @extend .first-font;
-font-style: normal;
-font-weight: 600;
-font-size: 0.875em;
-line-height: 110%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875em;
+  line-height: 110%;
 
-color: #787878;
+  color: #787878;
 }

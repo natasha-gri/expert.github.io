@@ -108,7 +108,7 @@ footer {
 }
 
 // ====== 3 стили для отступов сверху-снизу секции
-/* 1) для верхнего меню */
+/* 1) для блоков */
 .padding-block-header{
   display: flex;
   flex-direction: column;
@@ -119,12 +119,19 @@ footer {
     justify-content: center;
   }
 }
-/* 2) для обложки */
-// .padding-block-cover {
-//   min-height: 100vh;
-//   padding-top: 28vh;
-//   padding-bottom: 90px;
-// }
+.padding-block-cover {
+  padding-top: 22px;
+}
+.padding-block-team {
+  padding-top: 155px;
+  padding-bottom: 80px;
+}
+.padding-block-news {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
 /* 3) для изображения*/
 .padding-block-img {
   min-height: 100px;
@@ -142,13 +149,8 @@ footer {
   padding-top: 70px;
   padding-bottom: 86px;
 }
-.padding-block-cover {
-  padding-top: 22px;
-}
-.padding-block-team {
-  padding-top: 155px;
-  padding-bottom: 80px;
-}
+
+
 
 //============================
 .blockundermenu{
