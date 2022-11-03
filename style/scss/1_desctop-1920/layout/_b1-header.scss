@@ -5,12 +5,12 @@
   min-height: 85px;
   background-color: rgb(255, 255, 255);
   &-top{
-    padding: 8px 0 8px 0;
+    padding: 9px 0 9px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     &-logowrap {
-      width: 23%;
+      width: 24%;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -27,7 +27,7 @@
     }
   }
   &-menu{
-    height: 54px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
