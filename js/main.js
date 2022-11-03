@@ -5,7 +5,7 @@ const swiperClients1 = new Swiper('.v-clients-slider', {
   loop: true,
   autoplay: {
   delay: 0,
-  disableOnInteraction: false
+  disableOnInteraction: false,
   },
   speed: 105000,
   spaceBetween: 10,
@@ -21,7 +21,7 @@ direction: 'horizontal',
 loop: true,
 autoplay: {
 delay: 0,
-disableOnInteraction: false
+disableOnInteraction: false,
 },
 speed: 110000,
 spaceBetween: 10,
@@ -36,16 +36,27 @@ const swiperTeam = new Swiper('.v-team-slider', {
   loop: true,
     autoplay: {
     delay: 2000,
-     
+    // прокрутка после взаимодействия с кнопками
+    disableOnInteraction: false,
   },
   speed: 1000,
   spaceBetween: 30,
   slidesPerView: 3,
-  
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
-  },
+  },  
+  // остановится при наведении мыши
+  on: {
+    init() {
+      this.el.addEventListener('mouseenter', () => {
+        this.autoplay.stop();
+      });
 
-    
+      this.el.addEventListener('mouseleave', () => {
+        this.autoplay.start();
+      });
+    }
+  },  
 });
+

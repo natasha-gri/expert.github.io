@@ -47,17 +47,17 @@
 }
 .swiper-button-prev{
   position: relative !important;
-  // top: 12px;
-  // left: 46%;
+  width: 50px;
+  height: 50px;
 }
 .swiper-button-next{
   position: relative !important;
-  // top: -10px;
-  // right: -55%;
+  width: 50px;
+  height: 50px;
 }
 .team-persons-button-wrap{
   margin-top: 14px;
   display: flex;
   justify-content: center;
-  column-gap: 25px;
+  column-gap: 6px;
 }

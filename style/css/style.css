@@ -360,6 +360,28 @@ p {
   height: 194px;
   fill: #28468C; }
 
+.icon-left-arrow-empty {
+  width: 30px;
+  height: 30px;
+  padding: 6px 6px 6px 5px;
+  fill: #28468C;
+  background-color: #c6c6c6;
+  border-radius: 5px; }
+  .icon-left-arrow-empty:hover {
+    background-color: #8383B6;
+    fill: white; }
+
+.icon-right-arrow-empty {
+  width: 30px;
+  height: 30px;
+  padding: 6px 5px 6px 6px;
+  fill: #28468C;
+  background-color: #c6c6c6;
+  border-radius: 5px; }
+  .icon-right-arrow-empty:hover {
+    background-color: #8383B6;
+    fill: white; }
+
 button {
   border: none;
   background-color: transparent;
@@ -802,16 +824,20 @@ footer {
   width: 75%; }
 
 .swiper-button-prev {
-  position: relative !important; }
+  position: relative !important;
+  width: 50px;
+  height: 50px; }
 
 .swiper-button-next {
-  position: relative !important; }
+  position: relative !important;
+  width: 50px;
+  height: 50px; }
 
 .team-persons-button-wrap {
   margin-top: 14px;
   display: flex;
   justify-content: center;
-  column-gap: 25px; }
+  column-gap: 6px; }
 
 /* 2_desctop-от 1280 до 1600 */
 /* 3_desctop-от 1024 до 1280 */

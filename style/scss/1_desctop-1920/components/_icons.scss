@@ -58,7 +58,30 @@
   height: 194px;
   fill: $icon-color-blue;
 }
-
+.icon-left-arrow-empty{
+  width: 30px;
+  height: 30px;
+  padding: 6px 6px 6px 5px;
+  fill: $icon-color-blue;
+  background-color: rgb(198, 198, 198);
+  border-radius: 5px;
+  &:hover{
+    background-color: $icon-color-purple;
+    fill: white;
+  }
+}
+.icon-right-arrow-empty{
+  width: 30px;
+  height: 30px;
+  padding: 6px 5px 6px 6px;
+  fill: $icon-color-blue;
+  background-color: rgb(198, 198, 198);
+  border-radius: 5px;
+  &:hover{
+    background-color: $icon-color-purple;
+    fill: white;
+  }
+}
 button{
   border: none;
   background-color: transparent;
