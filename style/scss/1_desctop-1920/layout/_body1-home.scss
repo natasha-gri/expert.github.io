@@ -87,6 +87,7 @@
   width: 76%;
   margin-bottom: 59px;
   display: flex;
+  
   & h2{
     width: 40%;
   }
@@ -96,6 +97,20 @@
   }
 }
 
+.team-persons-img-link{
+  width: 100%;    
+  
+}
+.team-persons-wrap-person-header-img:hover img{
+  filter: grayscale(1) brightness(110%);
+  transform: scale(1.025); 
+  transition: all 0.8s ease-in-out;
+}
+.team-persons-wrap-person-header-img:hover svg{
+  transform: translate(-5px,-5px) scale(-1.2, -1.2);
+  transition: all 0s ease-in-out;
+}
+
 .team-persons{
   display: flex;
   position: relative;
@@ -103,40 +118,49 @@
     width: 75%;
     display: flex;
     column-gap: 3%;
-    &-person-header{
-      min-height: 250px;  
-      margin-bottom: 13px;    
-      display: flex;
-
-      &-biz{
-      width: 25px;
-      position: relative;
-        & p{  
-        width: 275px;
-        position: absolute;
-        top: 132px;
-        left: -130px;
-        rotate: 270deg;
-        }  
-      }
-      
-      &-img{        
+    &-person{
+      width: 31.3333%;
+      &-header{
+        min-height: 250px;  
+        margin-bottom: 13px;    
+        display: flex;
+        justify-content: space-between;
+        &-biz{
+        width: 25px;
         position: relative;
-        & img{
-          object-fit: cover;
-          width: 100%;
-          height: 100%;
-        };
-        & svg{
-        position: absolute;
-        right: 0;
-        bottom: 1px;
+          & p{  
+          width: 275px;
+          position: absolute;
+          top: 132px;
+          left: -130px;
+          rotate: 270deg;
+          }  
+        }
         
-      }
+        &-img{   
+          height: 275px; 
+          position: relative;
+          overflow: hidden;
+          & img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+          };
+          & svg{
+          position: absolute;
+          right: 0;
+          bottom: 0px;
+          
+        }
+        }
       }
     }
     &-person-footer{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
       & p:nth-child(1){
+        width: 69%;
         margin-bottom: 9px;
       }
       & p:nth-child(2){
@@ -147,7 +171,8 @@
 }
 
 .team-persons-buttons{
- margin: 0 auto;
+  width: 25%;
+  margin: 0 auto;
 }
 
 .benefit-team{

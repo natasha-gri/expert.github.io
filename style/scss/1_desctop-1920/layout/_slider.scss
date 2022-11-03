@@ -40,3 +40,24 @@
     width: 55%;
   }
 }
+
+// Cлайдер команды
+.v-team-slider{
+  width: 75%;
+}
+.swiper-button-prev{
+  position: relative !important;
+  // top: 12px;
+  // left: 46%;
+}
+.swiper-button-next{
+  position: relative !important;
+  // top: -10px;
+  // right: -55%;
+}
+.team-persons-button-wrap{
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+}
