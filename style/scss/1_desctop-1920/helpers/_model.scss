@@ -4,9 +4,14 @@ html, body {
   height: 100%;
   background-color: $body-bg;
 }
+
 /* 2) */
 .main-container {
   min-height: 100%;
+  // background-image: url(../../img/ways-footer.svg);
+  // background-size: 76%;
+  // background-repeat: no-repeat;
+  // background-position: 100% 101%;
 }
 /* 3) + цвет фона + центрирование содержимого*/
 footer {
