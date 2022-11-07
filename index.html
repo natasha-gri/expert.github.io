@@ -16,13 +16,13 @@
 </head>
 
 <body>
-    <div class="main-container">
+    <div class="main-container hidden-for-mobile">
         <header>
             <!-- Верхнее меню -->
             <!-- Фиксация сверху, цвет фона + центрирование по вертикали-->
             <div class="top-header padding-block-header">
                 <!-- центрирование по сторонам блока + границы сетки -->
-                <div class="top-header-top container-rows-1670">                    
+                <div class="top-header-top container-rows-cover">                    
                         <!-- Лого -->
                         <div class="top-header-top-logowrap">
                             <div class="top-header-top-logowrap-logo">
@@ -58,7 +58,7 @@
                     
 
                 </div>
-                <div class="top-header-menu container-rows-1670">
+                <div class="top-header-menu container-rows-cover">
                     <!-- Меню -->
                     <div id="mainMenu" class="main-header-menu">
                         <label for="menu" class="main-header-menu-label"></label>
@@ -124,7 +124,7 @@
             <!-- Обложка -->
             <section>
                 <div class="padding-block-cover">
-                    <div class="cover container-rows-1670">
+                    <div class="cover container-rows-cover">
                         
                         <div class="cover-header">
                             <div class="cover-header-wrap">
@@ -575,7 +575,7 @@
 <!-- end class="main-container" -->
 </div>
 <!-- высота, фон, центрирование содержимого -->
-<footer>
+<footer class="hidden-for-mobile>">
     <!-- стили контента и граница сетки -->    
     <div class="footer-cont container-rows">
         
@@ -916,6 +916,46 @@
         c0.4,0.4,0.4,1,0,1.4l-7.5,7.4c-0.4,0.4-0.4,1,0,1.4l0,0C1.1,20.3,1.7,20.3,2.1,19.9z"></path>
       </symbol>
 </svg> 
+
+<!-- hidden-for-mobile -->
+<div class="hidden-for-desctop">
+
+    <div class="mobile-hidden container-rows">
+            <div class="mobile-hidden-top">
+                <div class="top-header-top-logowrap-logo">
+                    <a href="/index.html"><img src="img/logo-desctop.svg"
+                        alt="logo-desctop" width="190">
+                    </a>
+                </div>    
+                <div class="top-header-top-logowrap-description">
+                    <p>Центр сопровождения</br>бизнеса</p>
+                </div>
+            </div>
+
+            <div class="mobile-hidden-text">
+                <h2>Привет!</h2>
+                <p>Мы пока не успели запустить мобильную версию сайта. Но она уже вот-вот появится ¯ \_(ツ)_/¯</p>
+                <p>А пока вы можете посмотреть наш сайт на мониторе компьютера или ноутбука. На нем мы точно есть (¬‿¬ )</p>
+
+            </div>
+    
+            <div class="mobile-hidden-communications">
+                <div>
+                    <p>Тобольск, 7 мкр.,</br>дом 39, офис №8</p>
+                </div>
+                <div>
+                    <p>+7 (3456) 27-30-01</p>
+                    <p>пн-пт: 9:00 - 17:30</p>    
+                </div>
+                <div>
+                    <svg class="icon-vk">
+                        <use xlink:href="#vk"></use>
+                    </svg>
+                </div>
+            </div>
+    </div>
+
+</div>
 </body>
 
 </html>

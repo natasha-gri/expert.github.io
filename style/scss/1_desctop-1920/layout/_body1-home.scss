@@ -1,6 +1,12 @@
 .hidden{
   display: none;
 }
+.hidden-for-mobile{
+  display: block;
+}
+.hidden-for-desctop{
+  display: none;
+}
 
 .cover{
   height: 613px;
@@ -72,6 +78,7 @@
     &:hover{
       transform: scale(1.025);
       transition: ease-out 0.1s;
+      cursor: pointer;
     }
   }
 }
@@ -283,7 +290,7 @@
   }
   &__footer{
     & p:nth-child(1){
-      margin-bottom: 20px;
+      margin-bottom: 18px;
     }
   }
 }
