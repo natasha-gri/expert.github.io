@@ -1,0 +1,13 @@
+.button{
+  padding: 12px 40px 12px 45px;
+  background-color: $footer-bg;
+  border-radius: 5px;
+  @extend .first-font;
+  text-transform: uppercase;
+  color: $text-h1;
+  text-decoration: none;
+  &:hover{
+    background-color: $icon-color-purple;
+    color: white;
+  }
+}

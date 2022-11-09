@@ -34,6 +34,9 @@ h2 {
   line-height: 108%;
   color: $text-h2;
 }
+.page-title {
+  margin-bottom: 14px;
+}
 .block-subtitle{
   @extend .first-font;
   font-size: 1em; //17
@@ -77,12 +80,13 @@ p {
   color: $services-cards-text;
 }
 // ***************** team
-.team-persons-wrap-person-header-biz P{
+.team-persons-wrap-person-header-biz p{
   font-family: 'Mont';
   font-style: normal;
   font-weight: 800;
   font-size: 15.9909px;
   line-height: 103.52%;
+  text-transform: lowercase;
   text-align: right;
   color: $text-h1;
 }

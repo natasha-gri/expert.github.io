@@ -73,6 +73,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-decoration: none;
     border-radius: 5px;
     background-color: $services-card;
     &:hover{
@@ -116,6 +117,8 @@
 .team-persons-wrap-person-header-img:hover svg{
   transform: translate(-5px,-5px) scale(-1.2, -1.2);
   transition: all 0s ease-in-out;
+  right: -1px;
+  bottom: -1px;
 }
 
 .team-persons{
@@ -205,7 +208,7 @@
 }
 .benefit-news{
   position: absolute;
-  bottom: 22px;
+  bottom: 32px;
   left: -11px;
   &__number{
     position: relative;
@@ -245,9 +248,7 @@
   }
 }
 }
-.news__block{
-  width: 81%;
-  padding-top: 6px;
+.news__block--page{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -255,6 +256,20 @@
     margin-bottom: 89px;
     display: flex;
     column-gap: 2%;
+  }
+}
+.news__block{
+  width: 81%;
+  padding-top: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &-items{
+    margin-bottom: 60px;
+    display: flex;
+    column-gap: 2%;
+    row-gap: 30px;
+    flex-wrap: wrap;
   }
 }
 .news__item{

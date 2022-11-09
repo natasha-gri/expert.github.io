@@ -23,8 +23,9 @@ footer{
     margin-top: 10px;
     display: flex;
     column-gap: 2%;
-    & div{
+    & a, div{
       width: 24%;
+      text-decoration: none;
       display: flex;
       column-gap: 5%;
       & svg{

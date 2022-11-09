@@ -2,11 +2,17 @@
   width: 24px;
   height: 24px;
   fill: $icon-color-purple;
+  &:hover{
+    transform: scale(1.2);
+  }
 }
 .icon-vk-footer{
   width: 24px;
   height: 24px;
   fill: $text-h1;
+  &:hover{
+    transform: scale(1.2);
+  }
 }
 .icon-email{
   width: 19px;
@@ -22,6 +28,9 @@
   width: 24px;
   height: 24px;
   fill: $text-h1;
+  &:hover{
+    transform: scale(1.2);
+  }
 }
 .icon-1c{
   width: 112px;

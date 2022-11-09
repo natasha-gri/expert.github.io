@@ -24,6 +24,12 @@
       column-gap: 55px;
       justify-content: flex-end;
       align-items: center;
+      & a{
+        text-decoration: none;
+        &:hover{
+          cursor: pointer;
+        }
+      }
     }
   }
   &-menu{
