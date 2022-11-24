@@ -1,0 +1,26 @@
+@media (max-width: 360px) {
+  .main-header-menu{
+    width: 14%;
+  }
+
+  .cover{
+    &-header{
+      &-title{
+        margin-bottom: 25px;
+      }
+    }
+    &-footer{
+      &-wrap{
+        width: 90%;
+      } 
+    }
+  }
+
+  .services-cards{
+    flex-direction: column;
+    &-card{
+      width: 100%
+    }
+  }
+
+}

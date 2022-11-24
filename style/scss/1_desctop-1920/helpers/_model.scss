@@ -29,7 +29,6 @@ footer {
   footer{
     height: 230px;
     margin-top: -230px;
-    padding-top: 25px;
   }
   .clr {
     height: 230px;
@@ -39,7 +38,6 @@ footer {
   footer{
     height: 305px;
     margin-top: -305px;
-    padding-top: 35px;
   }
   .clr {
     height: 305px;
@@ -49,7 +47,6 @@ footer {
   footer{
     height: 340px;
     margin-top: -340px;
-    padding-top: 35px;
   }
   .clr {
     height: 340px;
@@ -57,12 +54,11 @@ footer {
 }
 @media (max-width : 360px) {
   footer{
-    height: 468px;
-    margin-top: -468px;
-    padding-top: 105px;
+    height: 398px;
+    margin-top: -398px;
   }
   .clr {
-    height: 468px;
+    height: 398px;
   }
 }
 // конец правила для прижатия футера

@@ -1,0 +1,38 @@
+@media (max-width: 1024px) {
+
+}
+
+// ************ручная настройка
+@media (max-width: 1170px) {
+  .top-header{
+    &-top{
+      &-logowrap {        
+        width: 40%;
+        &-logo{
+          width: 40%;
+        }
+        &-description{
+          width: 60%;
+        }
+      }
+      &-communications{        
+        width: 70%;
+      }
+    }
+  }
+}
+// ************ручная настройка
+@media (max-width: 920px) {
+  .top-header{
+    &-top{
+      &-logowrap {   
+        &-logo{
+          width: 30%;
+        }
+        &-description{
+          width: 70%;
+        }
+      }
+    }
+  }
+}

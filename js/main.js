@@ -9,11 +9,27 @@ const swiperClients1 = new Swiper('.v-clients-slider', {
   },
   speed: 105000,
   spaceBetween: 10,
-  slidesPerView: 5,
+  //slidesPerView: 5,
   grabCursor: false,
   slidesPerGroup: 20,
   simulateTouch: false,
-  
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    480: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+    1280: {
+      slidesPerView: 4,
+    },
+    1600: {
+      slidesPerView: 5,
+    }
+  }
   });
   
 const swiperClients2 = new Swiper('.v2-clients-slider', {

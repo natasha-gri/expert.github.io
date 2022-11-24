@@ -1,0 +1,20 @@
+@media (max-width: 480px) {
+  .footer-cont {
+    position: relative;
+    flex-direction: column-reverse;
+    &-copyright{
+      margin-bottom: 0;
+      &:before{
+        content: "";
+        position: absolute;
+        width: 87%;
+        height: 1px;
+        top: 200px;
+        background-color: #c4c4c4;
+      }
+    }
+    &-contacts{
+      margin-bottom: 50px;
+    }
+}
+}

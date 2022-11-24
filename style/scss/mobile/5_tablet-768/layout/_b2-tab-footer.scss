@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+  .footer-cont{
+    &-copyright{
+      width: 50%;
+    }
+    &-contacts{
+      width: 100%;
+      flex-wrap: wrap;
+      column-gap: 20px;
+      row-gap: 30px;
+      & a, div{
+        width: 48%;
+        column-gap: 20px;
+        & svg{
+        }
+        & p{
+        }
+      }
+    }
+  }
+}

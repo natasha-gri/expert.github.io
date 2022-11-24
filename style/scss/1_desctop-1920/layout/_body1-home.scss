@@ -69,10 +69,13 @@
   flex-wrap: wrap;
   &-card{
     width: 32.6666%;
+    min-height: 142px;
     padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
+    position: relative;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
     text-decoration: none;
     border-radius: 5px;
     background-color: $services-card;
@@ -80,6 +83,14 @@
       transform: scale(1.025);
       transition: ease-out 0.1s;
       cursor: pointer;
+    }
+    & svg{
+      
+    }
+    & p{
+      position: absolute;
+      right: 15px;
+      bottom: 15px;
     }
   }
 }
@@ -191,8 +202,8 @@
   right: 0;
   &-number{
     position: absolute;
-    bottom: -36px;
-    right: 44px;
+    bottom: -7px;
+    right: -3px;
   }
   &-subtitle{
     position: relative;

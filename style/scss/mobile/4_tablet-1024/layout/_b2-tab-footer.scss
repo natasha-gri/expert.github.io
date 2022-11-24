@@ -1,0 +1,15 @@
+@media (max-width: 1024px) {
+  .footer-cont{
+    flex-direction: column;
+    align-items: center;
+    &-copyright{
+      width: 40%;
+      margin-bottom: 40px;
+      justify-content: space-between;
+
+    }
+    &-contacts{
+      width: 100%;
+    }
+  }
+}

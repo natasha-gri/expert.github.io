@@ -1,0 +1,98 @@
+@media (max-width: 768px) {
+.top-header{
+  min-height: 60px;
+  margin-top: 20px;
+  &-top{
+    display: none;
+  }
+  &-content{
+    min-height: 60px;
+    justify-content: space-between;
+    &-logocont{
+      display: none;
+    }
+  }
+  &-menu{
+    padding-left: 20px;
+    padding-right: 15px;
+    justify-content: space-between;
+  }
+}
+
+.mobile-logo{
+  display: block;
+}
+
+.top-header-content-title{
+  display: block;
+  margin: 0 auto;
+  padding-left: 34px;
+}
+
+// меню под WP  
+.main-header-menu{
+  width: 7%;
+}
+    .menu-list{
+    width: 100%;
+    z-index: 9;
+    visibility: hidden;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    background-color: $menu-mobile-bg;        
+  }
+  .menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-item a{
+    padding: 23px 40px;
+    margin-top: 0;
+    font-weight: 600;
+    color: $sub-menu-link;
+    &:hover{
+        color: $sub-menu-link;                
+    }
+    &:after{
+        top: 56px;
+        background: $sub-menu-link; 
+    } 
+  }
+  .menu-list > li:first-child > a{
+    padding-top: 40px;
+  }
+  .menu-list > li:last-child > a{
+    padding-bottom: 40px;
+  }
+  .sub-menu{
+    width: 90%;
+    padding-top: 0 !important;
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .sub-menu>li{
+    padding: 0 0 0 0;
+    background-color: $sub-menu-bg;
+  }
+  
+// меню под WP END
+// бургер
+  .main-header-menu-label {
+display: block;
+width: 45px;
+height: 45px;
+background-image: url(/img/menu.svg);
+background-size: 100%;
+background-position: 0 0;
+}    
+.main-header-menu-input[type="checkbox"]:checked ~ .main-header-menu-wrp ul{
+height: auto;
+visibility: visible;
+}
+/* end */
+}

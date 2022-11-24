@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+
+}
+
+// ************ручная настройка
+@media (max-width: 930px){
+  .cover{
+    &-header{
+      &-subtitle{
+      & p:nth-child(1){
+        display: none;
+      }
+      & p:nth-child(2){
+        width: 100%;
+      }
+    }
+    }
+  }
+
+  .benefit-cover{
+    display: none;
+  }
+
+  .services-cards{
+    width: 100%;
+    column-gap: 2%;
+    &-card{
+      width: 32%
+    }
+  }
+}

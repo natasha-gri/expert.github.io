@@ -61,7 +61,7 @@ h2 {
 p {
   @extend .first-font;
   font-size: 1em; //16px
-  font-weight: 700; //regular
+  font-weight: 600; //regular
   font-stretch: normal;
   font-style: normal;
   line-height: 169%;
@@ -136,10 +136,10 @@ p {
 .benefit-team-number{
   @extend .second-font;
   font-style: normal;
-  font-weight: 700;
-  font-size: 287px;
-  letter-spacing: -0.35px;
-  line-height: 103.52%;
+    font-weight: 700;
+    font-size: 251px;
+    letter-spacing: -2px;
+    line-height: 103.52%;
   color: $benefit-color-1;
 }
 .benefit-team-subtitle{

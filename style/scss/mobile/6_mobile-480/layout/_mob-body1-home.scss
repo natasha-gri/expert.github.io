@@ -1,0 +1,30 @@
+@media (max-width: 480px) {
+  .top-header{
+    &-menu{
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+  }
+
+  .main-header-menu{
+    width: 10%;
+  }
+}
+
+// ************ручная настройка
+@media (max-width: 660px) {
+  .cover{
+    &-footer{
+      &-wrap{
+        width: 96%;
+      }
+    }
+  }
+
+  .services-cards{
+    &-card{
+      width: 49%
+    }
+  }
+
+}

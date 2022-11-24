@@ -1,0 +1,15 @@
+@media (max-width: 360px) {
+  .services-cards p{
+    font-size: 1em;
+  }
+  .footer-cont-copyright-text p{
+    font-size: 0.65em;
+  }
+}
+
+// ************ручная настройка
+@media (max-width: 450px) {
+  h1{
+    font-size: 2em; //32
+  }
+}
