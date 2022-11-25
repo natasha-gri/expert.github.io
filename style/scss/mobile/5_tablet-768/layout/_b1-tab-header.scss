@@ -31,7 +31,9 @@
 
 // меню под WP  
 .main-header-menu{
-  width: 7%;
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
 }
     .menu-list{
     width: 100%;

@@ -1,15 +1,46 @@
-@media (max-width: 480px) {
+@media (max-width: 567px) {
+  .footer-cont{
+    &-copyright{
+      width: 80%;
+      &-logo{
+        width: 30%;
+      }
+      &-text{
+        width: 50%;
+      }
+    }
+    &-contacts{
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 490px) {
   .footer-cont {
     position: relative;
     flex-direction: column-reverse;
     &-copyright{
+      width: 90%;
       margin-bottom: 0;
-      &:before{
+      flex-direction: column;
+      &-logo{
+        width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+      }
+      &-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      &:after{
         content: "";
         position: absolute;
         width: 87%;
         height: 1px;
-        top: 200px;
+        bottom: 32%;
         background-color: #c4c4c4;
       }
     }

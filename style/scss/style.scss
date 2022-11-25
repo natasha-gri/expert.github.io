@@ -14,14 +14,14 @@
 /* 2_desctop-от 1280 до 1600 */
 @import '2_desctop-1600/layout/desc-body1-home';
 // @import '2_desctop-1600/layout/desc-body1-page'; 
-// @import '2_desctop-1600/layout/b2-desc-footer'; 
+@import '2_desctop-1600/layout/b2-desc-footer'; 
 
 /* 3_desctop-от 1024 до 1280 */
 @import '3_desctop-1280/base/desc-typography';
 @import '3_desctop-1280/components/icons';
 @import '3_desctop-1280/layout/desc-body1-home'; 
 // @import '3_desctop-1280/layout/mobile-hidden'; 
-// @import '3_desctop-1280/layout/b2-desc-footer';
+@import '3_desctop-1280/layout/b2-desc-footer';
 
 // mobile
 
@@ -43,6 +43,7 @@
 
 /* 6_mob-от 360 до 480*/
 @import 'mobile/6_mobile-480/base/mob-typography';
+@import 'mobile/6_mobile-480/layout/b1-mob-header'; 
 @import 'mobile/6_mobile-480/layout/mob-body1-home';
 // @import 'mobile/6_mobile-480/layout/mob-body1-page';
 @import 'mobile/6_mobile-480/layout/mob-body1-product';
