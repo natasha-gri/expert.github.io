@@ -13,12 +13,13 @@
   
 /* 2_desctop-от 1280 до 1600 */
 @import '2_desctop-1600/layout/desc-body1-home';
-// @import '2_desctop-1600/layout/desc-body1-page'; 
+@import '2_desctop-1600/base/desc-typography'; 
 @import '2_desctop-1600/layout/b2-desc-footer'; 
 
 /* 3_desctop-от 1024 до 1280 */
 @import '3_desctop-1280/base/desc-typography';
 @import '3_desctop-1280/components/icons';
+@import '3_desctop-1280/layout/b1-desc-header'; 
 @import '3_desctop-1280/layout/desc-body1-home'; 
 // @import '3_desctop-1280/layout/mobile-hidden'; 
 @import '3_desctop-1280/layout/b2-desc-footer';
@@ -34,6 +35,7 @@
 
 /* 5_tablet-от 480 до 768*/
 @import 'mobile/5_tablet-768/base/tab-typography';
+@import 'mobile/5_tablet-768/components/icons';
 @import 'mobile/5_tablet-768/layout/b1-tab-header'; 
 @import 'mobile/5_tablet-768/layout/tab-body1-home'; 
 @import 'mobile/5_tablet-768/layout/tab-body1-product'; 

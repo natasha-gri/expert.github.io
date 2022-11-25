@@ -1,3 +1,14 @@
 @media (max-width : 1600px) {
+  .team-header{
+    width: 84%;
+  }
+  .benefit-team{
+    &-number{
+      bottom: 34px;
+    }
+  }
+}
+
+@media (max-width : 1470px) {
 
 }

@@ -90,7 +90,7 @@ p {
   text-align: right;
   color: $text-h1;
 }
-.team-persons-wrap-person-footer p:nth-child(1){
+.team-persons-wrap-person-footer p:nth-child(1), .team-persons-wrap-person-footer p:nth-child(2){
   @extend .first-font;
   font-style: normal;
   font-weight: 800;
@@ -99,7 +99,7 @@ p {
   text-align: right;
   color: $text-basic-p;
 }
-.team-persons-wrap-person-footer p:nth-child(2){
+.team-persons-wrap-person-footer p:nth-child(3){
   @extend .first-font;
   font-style: normal;
   font-weight: 600;
@@ -137,7 +137,7 @@ p {
   @extend .second-font;
   font-style: normal;
     font-weight: 700;
-    font-size: 251px;
+    font-size: 265px;
     letter-spacing: -2px;
     line-height: 103.52%;
   color: $benefit-color-1;

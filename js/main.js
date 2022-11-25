@@ -15,7 +15,7 @@ const swiperClients1 = new Swiper('.v-clients-slider', {
   simulateTouch: false,
   breakpoints: {
     320: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     480: {
       slidesPerView: 2,
@@ -41,10 +41,27 @@ disableOnInteraction: false,
 },
 speed: 110000,
 spaceBetween: 10,
-slidesPerView: 7,
+// slidesPerView: 7,
 grabCursor: false,
 slidesPerGroup: 20,
 simulateTouch: false,
+breakpoints: {
+  320: {
+    slidesPerView: 2,
+  },
+  480: {
+    slidesPerView: 3,
+  },
+  1024: {
+    slidesPerView: 4,
+  },
+  1280: {
+    slidesPerView: 6,
+  },
+  1600: {
+    slidesPerView: 7,
+  }
+}
 });
 
 const swiperTeam = new Swiper('.v-team-slider', {
@@ -57,7 +74,17 @@ const swiperTeam = new Swiper('.v-team-slider', {
   },
   speed: 1000,
   spaceBetween: 30,
-  slidesPerView: 3,
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    528: {
+      slidesPerView: 2,
+    },
+    942: {
+      slidesPerView: 3,
+    }
+  },
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',

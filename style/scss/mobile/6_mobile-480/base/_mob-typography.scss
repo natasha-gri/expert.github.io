@@ -1,25 +1,11 @@
-@media (max-width: 480px) {
-  .footer-cont{
-    &-copyright{
-      width: 88%;
-    }
-    &-contacts{
-      row-gap: 20px;
-      & a, div{
-        width: 88%;
-        column-gap: 20px;
-        & svg{
-        }
-        & p{
-        }
-      }
-    }
-  }
-}
-
-// ************ручная настройка
 @media (max-width: 600px) {
   h1{
     font-size: 2.60em; //41.6
+  }
+}
+
+@media (max-width: 526px) {
+  .team-persons-wrap-person-footer p:nth-child(3){
+    font-size: 1em;
   }
 }

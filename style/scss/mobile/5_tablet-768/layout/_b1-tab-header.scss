@@ -37,13 +37,15 @@
 }
     .menu-list{
     width: 100%;
+    padding: 20px;
     z-index: 9;
     visibility: hidden;
     flex-direction: column;
     position: absolute;
-    right: 0px;
-    top: 60px;
-    background-color: $menu-mobile-bg;        
+    right: 0;
+    top: 80px;
+    background-color: $menu-mobile-bg;   
+    //outline: 2px solid red;     
   }
   .menu-item{
     display: flex;
@@ -51,10 +53,13 @@
     align-items: center;
   }
   .menu-item a{
-    padding: 23px 40px;
+    width: 92%;
+    padding: 14px 40px;
     margin-top: 0;
     font-weight: 600;
-    color: $sub-menu-link;
+    background-color: $icon-color-purple;
+    color: white;
+    border-radius: 5px;
     &:hover{
         color: $sub-menu-link;                
     }
@@ -63,11 +68,12 @@
         background: $sub-menu-link; 
     } 
   }
+
   .menu-list > li:first-child > a{
-    padding-top: 40px;
+    margin-top: 23px;
   }
   .menu-list > li:last-child > a{
-    padding-bottom: 40px;
+    margin-bottom: 23px;
   }
   .sub-menu{
     width: 90%;
@@ -81,6 +87,12 @@
     padding: 0 0 0 0;
     background-color: $sub-menu-bg;
   }
+  .sub-menu > li > a {
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0 auto;
+    text-align: center;
+}
   
 // меню под WP END
 // бургер

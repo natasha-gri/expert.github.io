@@ -1,5 +1,30 @@
+@media (max-width: 1140px) {
+  .news-wrap{    position: relative;
+    &-cols{
+      flex-direction: column;
+    }
+  }
+  .news__title{
+    margin-bottom: 35px;
+    & h2::after{
+      display: none;
+    }
+  }
+  .news__block{
+    width: 100%;
+  }
+  .benefit-news{
+    display: none;
+  }
+}
+
 @media (max-width: 1024px) {
 
+}
 
+@media (max-width: 941px) {
+  .news__item{
+    width: 49%;
+  }
 }
 

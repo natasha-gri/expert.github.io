@@ -145,6 +145,18 @@ footer {
   padding-top: 159px;
   padding-bottom: 90px;
 }
+@media (max-width: 660px){
+  .padding-block-team {
+  padding-top: 294px;
+  padding-bottom: 90px;
+}
+}
+@media (max-width: 360px){
+  .padding-block-team {
+  padding-top: 754px;
+  padding-bottom: 90px;
+}
+}
 .padding-block-news {
   padding-top: 88px;
   padding-bottom: 98px;

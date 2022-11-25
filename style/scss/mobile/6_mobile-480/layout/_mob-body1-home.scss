@@ -15,4 +15,14 @@
 
 }
 
+@media (max-width: 527px){
+  .news__item{
+    width: 100%;
+  }
+}
 
+@media (max-width: 480px){
+  .team-persons-buttons{
+    width: 44%;
+  }
+}

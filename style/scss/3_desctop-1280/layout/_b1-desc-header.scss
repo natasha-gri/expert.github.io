@@ -1,22 +1,9 @@
 @media (max-width : 1280px) {
-  .top-header{
-    &-top{
-      &-logowrap {
-        &-logo{
-          width: 30%;
-        }
-        &-description{
-          width: 70%;
-        }
-      }
-      &-communications{
-        & a{
-          &:hover{
-          }
-        }
-      }
-    }
-    &-menu{
-    }
+
+}
+
+@media (max-width : 1184px){
+  .team-header{    
+    width: 100%;
   }
 }

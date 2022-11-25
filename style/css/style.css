@@ -112,6 +112,14 @@ footer {
   padding-top: 159px;
   padding-bottom: 90px; }
 
+@media (max-width: 660px) {
+  .padding-block-team {
+    padding-top: 294px;
+    padding-bottom: 90px; } }
+@media (max-width: 360px) {
+  .padding-block-team {
+    padding-top: 754px;
+    padding-bottom: 90px; } }
 .padding-block-news {
   padding-top: 88px;
   padding-bottom: 98px; }
@@ -137,7 +145,7 @@ footer {
   height: 75px; }
 
 .first-font, h1, .cover-subtitle, h2, .block-subtitle, .top-header-top-logowrap-description p, .top-header-top-communications p, .text-basic,
-p, .services-cards p, .team-persons-wrap-person-footer p:nth-child(1), .team-persons-wrap-person-footer p:nth-child(2), .news__item-img__date, .news__item__footer p:nth-child(1), .news__item__footer p:nth-child(2), .benefit-team-subtitle, .footer-cont-copyright-text p, .footer-cont-contacts p, .menu-item a, span.page-numbers.current, a.page-numbers, .button {
+p, .services-cards p, .team-persons-wrap-person-footer p:nth-child(1), .team-persons-wrap-person-footer p:nth-child(2), .team-persons-wrap-person-footer p:nth-child(3), .news__item-img__date, .news__item__footer p:nth-child(1), .news__item__footer p:nth-child(2), .benefit-team-subtitle, .footer-cont-copyright-text p, .footer-cont-contacts p, .menu-item a, span.page-numbers.current, a.page-numbers, .button {
   font-family: 'Mont', Arial, Helvetica, sans-serif; }
 
 .second-font, .benefit-team-number, .benefit-news__number, .benefit-news__subtitle p:nth-child(1), .benefit-news__subtitle p:nth-child(2), .benefit-news__subtitle p:nth-child(3) {
@@ -215,7 +223,7 @@ p {
   text-align: right;
   color: #28468C; }
 
-.team-persons-wrap-person-footer p:nth-child(1) {
+.team-persons-wrap-person-footer p:nth-child(1), .team-persons-wrap-person-footer p:nth-child(2) {
   font-style: normal;
   font-weight: 800;
   font-size: 1.5em;
@@ -223,7 +231,7 @@ p {
   text-align: right;
   color: #767676; }
 
-.team-persons-wrap-person-footer p:nth-child(2) {
+.team-persons-wrap-person-footer p:nth-child(3) {
   font-style: normal;
   font-weight: 600;
   font-size: 0.8em;
@@ -254,7 +262,7 @@ p {
 .benefit-team-number {
   font-style: normal;
   font-weight: 700;
-  font-size: 251px;
+  font-size: 265px;
   letter-spacing: -2px;
   line-height: 103.52%;
   color: rgba(92, 56, 146, 0.17); }
@@ -687,9 +695,11 @@ label,
       flex-direction: column;
       align-items: flex-end; }
       .team-persons-wrap-person-footer p:nth-child(1) {
-        width: 69%;
-        margin-bottom: 9px; }
+        width: 100%; }
       .team-persons-wrap-person-footer p:nth-child(2) {
+        width: 100%;
+        margin-bottom: 9px; }
+      .team-persons-wrap-person-footer p:nth-child(3) {
         padding-left: 10%; }
 
 .team-persons-buttons {
@@ -702,7 +712,7 @@ label,
   right: 0; }
   .benefit-team-number {
     position: absolute;
-    bottom: -7px;
+    bottom: -12px;
     right: -3px; }
   .benefit-team-subtitle {
     position: relative;
@@ -883,6 +893,9 @@ footer {
 .v-team-slider {
   width: 75%; }
 
+@media (max-width: 1140px) {
+  .v-team-slider {
+    width: 100%; } }
 .swiper-button-prev {
   position: relative !important;
   width: 50px;
@@ -899,6 +912,12 @@ footer {
   justify-content: center;
   column-gap: 6px; }
 
+@media (max-width: 768px) {
+  .team-persons-button-wrap {
+    column-gap: 26px; } }
+@media (max-width: 1024px) {
+  .v-team-slider {
+    width: 100%; } }
 .button {
   padding: 12px 40px 12px 45px;
   background-color: #DEDEDE;
@@ -911,6 +930,18 @@ footer {
     color: white; }
 
 /* 2_desctop-от 1280 до 1600 */
+@media (max-width: 1600px) {
+  .team-header {
+    width: 84%; }
+
+  .benefit-team-number {
+    bottom: 34px; } }
+@media (max-width: 1600px) {
+  .benefit-team-number {
+    font-size: 260px; } }
+@media (max-width: 1470px) {
+  .benefit-team-number {
+    font-size: 245px; } }
 @media (max-width: 1806px) {
   .footer-cont-copyright {
     width: 30%; }
@@ -923,13 +954,31 @@ footer {
       .footer-cont-contacts a p, .footer-cont-contacts div p {
         width: 80%; } }
 /* 3_desctop-от 1024 до 1280 */
-@media (max-width: 1280px) {
-  h1 {
-    font-size: 3.60em; } }
 @media (max-width: 1350px) {
   h1 {
     font-size: 3.60em; } }
 @media (max-width: 1280px) {
+  h1 {
+    font-size: 3.60em; }
+
+  .benefit-team-number {
+    font-size: 225px; } }
+@media (max-width: 1140px) {
+  .benefit-team {
+    display: none; }
+
+  .team-header {
+    flex-direction: column; }
+    .team-header h2 {
+      width: 100%; }
+    .team-header div {
+      width: 100%;
+      margin-top: 7px; }
+
+  .team-persons {
+    row-gap: 50px;
+    flex-direction: column; } }
+@media (max-width: 1564px) {
   .icon-1c {
     width: 87px;
     height: 38px;
@@ -959,6 +1008,9 @@ footer {
     width: 55px;
     height: 55px;
     fill: #ffffff; } }
+@media (max-width: 1184px) {
+  .team-header {
+    width: 100%; } }
 @media (max-width: 1436px) {
   .footer-cont-copyright {
     width: 30%; }
@@ -985,6 +1037,25 @@ footer {
     width: 30%; }
   .top-header-top-logowrap-description {
     width: 70%; } }
+@media (max-width: 1140px) {
+  .news-wrap {
+    position: relative; }
+    .news-wrap-cols {
+      flex-direction: column; }
+
+  .news__title {
+    margin-bottom: 35px; }
+    .news__title h2::after {
+      display: none; }
+
+  .news__block {
+    width: 100%; }
+
+  .benefit-news {
+    display: none; } }
+@media (max-width: 941px) {
+  .news__item {
+    width: 49%; } }
 @media (max-width: 1204px) {
   .footer-cont {
     flex-direction: column;
@@ -1001,6 +1072,17 @@ footer {
     .footer-cont-contacts {
       width: 100%; } }
 /* 5_tablet-от 480 до 768*/
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2.1em; } }
+@media (max-width: 768px) {
+  .icon-left-arrow-empty {
+    width: 46px;
+    height: 46px; }
+
+  .icon-right-arrow-empty {
+    width: 46px;
+    height: 46px; } }
 @media (max-width: 768px) {
   .top-header {
     min-height: 60px;
@@ -1032,13 +1114,14 @@ footer {
 
   .menu-list {
     width: 100%;
+    padding: 20px;
     z-index: 9;
     visibility: hidden;
     flex-direction: column;
     position: absolute;
-    right: 0px;
-    top: 60px;
-    background-color: #dfeeb0; }
+    right: 0;
+    top: 80px;
+    background-color: #ffffff; }
 
   .menu-item {
     display: flex;
@@ -1046,10 +1129,13 @@ footer {
     align-items: center; }
 
   .menu-item a {
-    padding: 23px 40px;
+    width: 92%;
+    padding: 14px 40px;
     margin-top: 0;
     font-weight: 600;
-    color: #134cd1; }
+    background-color: #8383B6;
+    color: white;
+    border-radius: 5px; }
     .menu-item a:hover {
       color: #134cd1; }
     .menu-item a:after {
@@ -1057,10 +1143,10 @@ footer {
       background: #134cd1; }
 
   .menu-list > li:first-child > a {
-    padding-top: 40px; }
+    margin-top: 23px; }
 
   .menu-list > li:last-child > a {
-    padding-bottom: 40px; }
+    margin-bottom: 23px; }
 
   .sub-menu {
     width: 90%;
@@ -1073,6 +1159,12 @@ footer {
   .sub-menu > li {
     padding: 0 0 0 0;
     background-color: #ffffff; }
+
+  .sub-menu > li > a {
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0 auto;
+    text-align: center; }
 
   .main-header-menu-label {
     display: block;
@@ -1113,17 +1205,12 @@ footer {
       width: 48%;
       column-gap: 20px; } }
 /* 6_mob-от 360 до 480*/
-@media (max-width: 480px) {
-  .footer-cont-copyright {
-    width: 88%; }
-  .footer-cont-contacts {
-    row-gap: 20px; }
-    .footer-cont-contacts a, .footer-cont-contacts div {
-      width: 88%;
-      column-gap: 20px; } }
 @media (max-width: 600px) {
   h1 {
     font-size: 2.60em; } }
+@media (max-width: 526px) {
+  .team-persons-wrap-person-footer p:nth-child(3) {
+    font-size: 1em; } }
 @media (max-width: 480px) {
   .top-header-menu {
     padding-left: 12px;
@@ -1134,6 +1221,12 @@ footer {
 
   .services-cards-card {
     width: 49%; } }
+@media (max-width: 527px) {
+  .news__item {
+    width: 100%; } }
+@media (max-width: 480px) {
+  .team-persons-buttons {
+    width: 44%; } }
 @media (max-width: 567px) {
   .footer-cont-copyright {
     width: 80%; }
@@ -1169,7 +1262,11 @@ footer {
         bottom: 32%;
         background-color: #c4c4c4; }
     .footer-cont-contacts {
-      margin-bottom: 50px; } }
+      margin-bottom: 50px;
+      row-gap: 20px; }
+      .footer-cont-contacts a, .footer-cont-contacts div {
+        width: 88%;
+        column-gap: 20px; } }
 /* 7_mob-до 360*/
 @media (max-width: 450px) {
   h1 {
