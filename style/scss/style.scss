@@ -6,8 +6,8 @@
 @import '1_desctop-1920/layout/b1-header'; 
 @import '1_desctop-1920/layout/menu';
 @import '1_desctop-1920/layout/body1-home';
-@import '1_desctop-1920/layout/body1-page'; 
-@import '1_desctop-1920/layout/body1-product';
+@import '1_desctop-1920/layout/body1-services-site'; 
+@import '1_desctop-1920/layout/body1-portfolio-case';
 @import '1_desctop-1920/layout/b2-footer'; 
 @import '1_desctop-1920/layout/slider'; 
 @import '1_desctop-1920/components/buttons';
@@ -48,7 +48,7 @@
 @import 'mobile/6_mobile-480/base/mob-typography';
 @import 'mobile/6_mobile-480/layout/b1-mob-header'; 
 @import 'mobile/6_mobile-480/layout/mob-body1-home';
-// @import 'mobile/6_mobile-480/layout/mob-body1-page';
+@import 'mobile/6_mobile-480/layout/mob-body1-services-site';
 @import 'mobile/6_mobile-480/layout/mob-body1-product';
 @import 'mobile/6_mobile-480/layout/b2-mob-footer'; 
 @import 'mobile/6_mobile-480/components/buttons';
@@ -58,6 +58,6 @@
 @import 'mobile/7_mobile-360/components/icons';
 @import 'mobile/7_mobile-360/layout/b1-mob-header'; 
 @import 'mobile/7_mobile-360/layout/mob-body1-home';
-// @import 'mobile/7_mobile-360/layout/mob-body1-page';
+
 @import 'mobile/7_mobile-360/layout/b2-mob-footer'; 
 
