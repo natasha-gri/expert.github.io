@@ -44,8 +44,7 @@
     position: absolute;
     right: 0;
     top: 80px;
-    background-color: $menu-mobile-bg;   
-    //outline: 2px solid red;     
+    background-color: $menu-mobile-bg;     
   }
   .menu-item{
     display: flex;
@@ -53,19 +52,18 @@
     align-items: center;
   }
   .menu-item a{
-    width: 92%;
+    width: 88%;
+    margin-bottom: 1px;
     padding: 14px 40px;
     margin-top: 0;
     font-weight: 600;
-    background-color: $icon-color-purple;
     color: white;
     border-radius: 5px;
     &:hover{
-        color: $sub-menu-link;                
+                 
     }
     &:after{
         top: 56px;
-        background: $sub-menu-link; 
     } 
   }
 
@@ -97,16 +95,16 @@
 // меню под WP END
 // бургер
   .main-header-menu-label {
-display: block;
-width: 45px;
-height: 45px;
-background-image: url(/img/menu.svg);
-background-size: 100%;
-background-position: 0 0;
-}    
-.main-header-menu-input[type="checkbox"]:checked ~ .main-header-menu-wrp ul{
-height: auto;
-visibility: visible;
-}
-/* end */
+  display: block;
+  width: 45px;
+  height: 45px;
+  background-image: url(/img/menu.svg);
+  background-size: 100%;
+  background-position: 0 0;
+  }    
+  .main-header-menu-input[type="checkbox"]:checked ~ .main-header-menu-wrp ul{
+  height: auto;
+  visibility: visible;
+  }
+  /* end */
 }

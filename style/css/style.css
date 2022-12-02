@@ -499,27 +499,11 @@ button {
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
-  line-height: 169%;
   letter-spacing: 0.025em;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: #ffffff; }
-  .menu-item a:hover {
-    color: #ffffff; }
-    .menu-item a:hover::after {
-      transform: translateY(2px) scale(1); }
-  .menu-item a:after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 55%;
-    top: 22px;
-    height: 1px;
-    background: #ffffff;
-    transform: translateY(2px) scale(0);
-    -webkit-transition: all 0.1s;
-    transition: all 0.1s; }
 
 .sub-menu {
   padding-top: 20px !important;
@@ -554,6 +538,26 @@ button {
 label,
 #menu {
   display: none; }
+
+.bg-light {
+  background-color: rgba(255, 255, 255, 0) !important; }
+
+.top-header-menu2 {
+  padding: 5px 0 5px 0;
+  background: linear-gradient(89.97deg, #4469BF 0.04%, #8383B6 98.83%);
+  border-radius: 5px; }
+
+.navbar-brand {
+  display: none; }
+
+@media (max-width: 992px) {
+  .navbar-brand {
+    display: block; }
+
+  .top-header-menu2 {
+    padding: 0 0 0 0; } }
+.navbar {
+  padding: 3px 0 3px 0; }
 
 .hidden {
   display: none; }
@@ -1129,18 +1133,15 @@ footer {
     align-items: center; }
 
   .menu-item a {
-    width: 92%;
+    width: 88%;
+    margin-bottom: 1px;
     padding: 14px 40px;
     margin-top: 0;
     font-weight: 600;
-    background-color: #8383B6;
     color: white;
     border-radius: 5px; }
-    .menu-item a:hover {
-      color: #134cd1; }
     .menu-item a:after {
-      top: 56px;
-      background: #134cd1; }
+      top: 56px; }
 
   .menu-list > li:first-child > a {
     margin-top: 23px; }
@@ -1243,7 +1244,8 @@ footer {
     .footer-cont-copyright {
       width: 90%;
       margin-bottom: 0;
-      flex-direction: column; }
+      flex-direction: column;
+      row-gap: 8px; }
       .footer-cont-copyright-logo {
         width: 100%;
         margin-bottom: 10px;
@@ -1307,6 +1309,9 @@ footer {
     width: 82px;
     height: 76px;
     fill: #ffffff; } }
+@media (max-width: 360px) {
+  .mobile-logo {
+    width: 38%; } }
 @media (max-width: 360px) {
   .cover-header-title {
     margin-bottom: 25px; }

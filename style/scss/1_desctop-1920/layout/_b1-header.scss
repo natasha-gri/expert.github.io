@@ -67,6 +67,7 @@
     display: block;
   }
 }
+
 .menu-item a{
   //min-width: 125px;
   display: flex;
@@ -79,30 +80,30 @@
   font-weight: 600; //regular
   font-stretch: normal;
   font-style: normal;
-  line-height: 169%;
   letter-spacing: 0.025em;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: $menu-link;
-  &:hover {
-    color: $menu-link-hover;
-    &::after {
-      transform: translateY(2px) scale(1);
-    }
-  }
-  &:after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 55%;
-    top: 22px;
-    height: 1px;
-    background: $menu-link-hover;
-    transform: translateY(2px) scale(0);
-    -webkit-transition: all 0.1s;
-    transition: all 0.1s;
-  }
+  // &:hover {
+  //   color: $menu-link-hover;
+  //   &::after {
+  //     transform: translateY(2px) scale(1);
+  //   }
+  // }
+  // &:after {
+  //   content: '';
+  //   position: absolute;
+  //   display: block;
+  //   width: 55%;
+  //   top: 22px;
+  //   height: 1px;
+  //   background: $menu-link-hover;
+  //   transform: translateY(2px) scale(0);
+  //   -webkit-transition: all 0.1s;
+  //   transition: all 0.1s;
+  // }
+  
 }
 .sub-menu{  
   padding-top: 20px !important;
@@ -139,7 +140,6 @@
 }
 // меню под WP END
 
-// меню под WP END
 // бургер
 label,
 #menu {
