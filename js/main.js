@@ -103,3 +103,17 @@ const swiperTeam = new Swiper('.v-team-slider', {
   },  
 });
 
+const swiperCase = new Swiper('.v-portfolio-case-slider', {
+  //direction: 'horizontal',
+  loop: true,
+  speed: 1000,
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  }, 
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },    
+});
+

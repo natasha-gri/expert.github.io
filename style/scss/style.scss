@@ -22,6 +22,8 @@
 @import '3_desctop-1280/components/icons';
 @import '3_desctop-1280/layout/b1-desc-header'; 
 @import '3_desctop-1280/layout/desc-body1-home'; 
+@import '3_desctop-1280/layout/body1-services-site';
+@import '3_desctop-1280/layout/body1-portfolio-case'; //
 // @import '3_desctop-1280/layout/mobile-hidden'; 
 @import '3_desctop-1280/layout/b2-desc-footer';
 
@@ -31,7 +33,8 @@
 @import 'mobile/4_tablet-1024/base/tab-typography';
 @import 'mobile/4_tablet-1024/layout/b1-tab-header'; 
 @import 'mobile/4_tablet-1024/layout/tab-body1-home'; 
-// @import 'mobile/4_tablet-1024/layout/tab-body1-page'; 
+@import 'mobile/4_tablet-1024/layout/body1-services-site'; 
+@import 'mobile/4_tablet-1024/layout/body1-portfolio-case'; //
 @import 'mobile/4_tablet-1024/layout/b2-tab-footer'; 
 
 /* 5_tablet-от 480 до 768*/
@@ -39,17 +42,16 @@
 @import 'mobile/5_tablet-768/components/icons';
 @import 'mobile/5_tablet-768/layout/b1-tab-header'; 
 @import 'mobile/5_tablet-768/layout/tab-body1-home'; 
-@import 'mobile/5_tablet-768/layout/tab-body1-product'; 
-@import 'mobile/5_tablet-768/layout/tab-body1-news';
+@import 'mobile/5_tablet-768/layout/body1-services-site'; 
+@import 'mobile/5_tablet-768/layout/body1-portfolio-case'; //
 @import 'mobile/5_tablet-768/layout/b2-tab-footer'; 
-// @import 'mobile/5_tablet-768/components/tab-buttons';
 
 /* 6_mob-от 360 до 480*/
 @import 'mobile/6_mobile-480/base/mob-typography';
 @import 'mobile/6_mobile-480/layout/b1-mob-header'; 
 @import 'mobile/6_mobile-480/layout/mob-body1-home';
-@import 'mobile/6_mobile-480/layout/mob-body1-services-site';
-@import 'mobile/6_mobile-480/layout/mob-body1-product';
+@import 'mobile/6_mobile-480/layout/body1-services-site'; 
+@import 'mobile/6_mobile-480/layout/body1-portfolio-case'; //
 @import 'mobile/6_mobile-480/layout/b2-mob-footer'; 
 @import 'mobile/6_mobile-480/components/buttons';
 
@@ -58,6 +60,7 @@
 @import 'mobile/7_mobile-360/components/icons';
 @import 'mobile/7_mobile-360/layout/b1-mob-header'; 
 @import 'mobile/7_mobile-360/layout/mob-body1-home';
-
+@import 'mobile/7_mobile-360/layout/body1-services-site'; 
+@import 'mobile/7_mobile-360/layout/body1-portfolio-case'; //
 @import 'mobile/7_mobile-360/layout/b2-mob-footer'; 
 

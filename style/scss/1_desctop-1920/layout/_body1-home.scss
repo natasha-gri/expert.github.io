@@ -148,6 +148,23 @@
         &-biz{
         width: 25px;
         position: relative;
+          & a{
+            width: 275px;
+            position: absolute;
+            top: 132px;
+            left: -130px;
+            transform: rotate(270deg);
+            font-family: 'Mont';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 15.9909px;
+            line-height: 103.52%;
+            text-transform: lowercase;
+            text-align: right;
+            text-decoration: none;
+            color: $text-h1 !important;
+            pointer-events: none;
+          }
           & p{  
           width: 275px;
           position: absolute;

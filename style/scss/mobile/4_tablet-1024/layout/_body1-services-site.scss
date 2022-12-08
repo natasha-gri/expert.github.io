@@ -1,0 +1,21 @@
+@media (max-width: 980px){
+  .cover-services{
+    &_header{    
+      &_wrap{
+        &_title{
+        }
+        &_subtitle{
+        }
+      }
+    }
+  }
+
+  .cases_wrap{
+    &_onecase{
+      &_btn{
+        width: 72%;
+      }
+    }
+  }
+
+}

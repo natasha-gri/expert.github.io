@@ -1,0 +1,24 @@
+@media (max-width : 820px){
+  .cover-services{
+    height:230px;
+    &_header{   
+      &_wrap{
+        height: 230px;
+        &_title{
+        }
+        &_subtitle{
+          font-size: 2em;
+      }
+    }
+  }
+  }
+  .cases_wrap{
+    &_onecase{
+      width: 100%;
+      &_btn{
+        width: 60%;
+      }
+    }
+  }
+}
+

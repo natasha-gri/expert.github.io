@@ -30,7 +30,7 @@
 }
 
 .cases_wrap{
-  margin-bottom: 75px;
+  margin-bottom: 75px;  
   display: flex;
   flex-wrap: wrap;
   column-gap: 4%;
@@ -53,42 +53,39 @@
     }
     &_img{
       overflow: hidden;
-      position: relative;
       box-shadow: 2px 2px 12px 1px rgba(0, 0, 0, 0.08); 
       & img{
         width: 100%;
         height: 100%;
         object-fit: cover; 
       }
-      &_btn{
-        height: 54px;  
-        padding-left: 25px;
-        padding-right: 15px;      
-        position: absolute;
-        bottom: 0;
-        background-color: white;
-        border: 1px solid $btn-case;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        @extend .first-font;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 23px;
-        color: $btn-case;
-        & div{
-          margin-right: 25px;
-        }
-        &:hover{
-          background-color: $btn-case;
-          color: white;
-          & .icon-arrow-topright{
-            fill: white;
-          }
+    }
+    &_btn{
+      width: 60%;
+      height: 54px;  
+      padding-left: 25px;
+      padding-right: 15px;   
+      background-color: white;
+      border: 1px solid $btn-case;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @extend .first-font;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 23px;
+      color: $btn-case;
+      & div{
+        margin-right: 25px;
+      }
+      &:hover{
+        background-color: $btn-case;
+        color: white;
+        & .icon-arrow-topright{
+          fill: white;
         }
       }
     }
-    
   }
 }

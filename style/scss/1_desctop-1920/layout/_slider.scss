@@ -1,10 +1,10 @@
-// Слайдер клиентов
 .swiper {
 }
 .swiper-slide{
   min-width: 0;
 }
-// 
+
+// Слайдер клиентов
 .v-clients-slider{
   height: 65px;
   background: $bg-gradient-1;
@@ -67,19 +67,10 @@
   width: 50px;
   height: 50px;
 }
-.team-persons-button-wrap{
-  margin-top: 14px;
-  display: flex;
-  justify-content: center;
-  column-gap: 6px;
-}
-@media (max-width: 768px){
-  .team-persons-button-wrap{
-    column-gap: 26px;
-  }  
-}
+
 @media (max-width: 1024px){
   .v-team-slider{
     width: 100%;
   }
 }
+

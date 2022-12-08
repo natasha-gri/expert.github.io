@@ -1,0 +1,149 @@
+.potfolio-case-header{
+  &-title{
+    @extend .first-font;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.2em;
+    line-height: 103%;
+    color: $text-h1;
+  }
+  &-subtitle{
+    @extend .first-font;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.75em;
+    line-height: 103.5%;
+    color: $text-h2;
+  }
+}
+
+.portfolio-case{
+  position: relative;
+}
+
+.portfolio-slide{
+  display: flex;
+  column-gap: 2%;
+  &-img{
+    width: 80%;    
+  }
+  &-content{
+    width: 20%;
+  }
+}
+
+.portfolio-case_buttons-wrap{
+    position: absolute;
+    right: 12%;
+    bottom: -3px;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 20px;
+  }
+  @media (max-width: 1600px){
+    .portfolio-case_buttons-wrap{
+      right: 11%;
+  }
+}
+.portfolio-case_buttons-wrap .icon-left-arrow-empty{
+  width: 40px;
+  height: 40px;
+}
+
+.portfolio-case_buttons-wrap .icon-right-arrow-empty{
+  width: 40px;
+  height: 40px;
+}
+
+.cases-other{
+  &_title{
+    margin-bottom: 25px;
+    @extend .first-font;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.2em;
+    line-height: 103%;
+    color: $text-h1;
+  }
+}
+.portfolio-case_description-content{
+  &-title{
+    @extend .first-font;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.8em;
+    line-height: 103%;
+    color: $text-h2;
+  }
+}
+@media (max-width: 1280px){
+  .portfolio-case_buttons-wrap{
+    right: 10%;
+}   
+}
+@media (max-width: 1024px){
+  .portfolio-slide{
+    flex-direction: column;
+    row-gap: 35px;
+    &-img{
+      width: 100%;    
+    }
+    &-content{
+      width: 80%;
+    }
+  }
+  .portfolio-case_buttons-wrap{
+    right: 0;
+    bottom: 15px;
+  }   
+}
+@media (max-width: 860px){
+  .portfolio-slide{
+    &-content{
+      width: 100%;
+    }
+  }
+  .portfolio-case_buttons-wrap{
+    right: 35vw;
+    bottom: -65px;
+  } 
+}
+@media (max-width: 480px){
+  .potfolio-case-header{
+    &-title{
+      font-size: 1.6em;
+    }
+    &-subtitle{
+      font-size: 2em;
+    }
+  }
+  .portfolio-case_buttons-wrap{
+    right: 30vw;
+  } 
+  .cases-other{
+    &_title{
+      font-size: 1.8em;
+    }
+  }
+}
+@media (max-width: 360px){
+  .potfolio-case-header{
+    &-title{
+      font-size: 1.2em;
+    }
+    &-subtitle{
+      font-size: 1.6em;
+    }
+  }
+  .portfolio-case_description-content{
+    &-title{
+      font-size: 1.6em;
+    }
+  }  
+  .cases-other{
+    &_title{
+      font-size: 1.6em;
+    }
+  }
+}
+

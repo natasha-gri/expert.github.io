@@ -11,3 +11,17 @@
     color: white;
   }
 }
+
+// кнопки слайдера
+.team-persons-button-wrap{
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  column-gap: 6px;
+}
+@media (max-width: 768px){
+  .team-persons-button-wrap{
+    column-gap: 26px;
+  }  
+}
+

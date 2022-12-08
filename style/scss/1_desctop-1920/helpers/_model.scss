@@ -170,11 +170,26 @@ footer {
   padding-bottom: 90px;
 }
 /* 4) для заголовка и текста*/
-.padding-block-content {
+.padding-block-content-header {
   padding-top: 60px;
   padding-bottom: 40px;
 }
-/* 5) для заголовка и изображения*/
+/* 5) для заголовка и текста*/
+.padding-block-content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* 5) для заголовка и текста*/
+.padding-block-case {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+@media (max-width: 860px){
+  .padding-block-case {
+    padding-bottom: 90px;
+  }
+}
+/* 6) для заголовка и изображения*/
 .padding-block-textimg {
   min-height: 100px;
   padding-top: 70px;
