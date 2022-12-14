@@ -12,16 +12,22 @@
   }
 }
 
-// кнопки слайдера
-.team-persons-button-wrap{
-  margin-top: 14px;
+// кнопки слайдера команды
+.slider-buttons1_wrap{  
   display: flex;
   justify-content: center;
   column-gap: 6px;
 }
 @media (max-width: 768px){
-  .team-persons-button-wrap{
+  .slider-buttons1_wrap{
     column-gap: 26px;
   }  
+}
+
+// кнопки слайдера oтзывов
+.slider-buttons1_wrap{  
+  display: flex;
+  justify-content: space-between;
+  column-gap: 6px;
 }
 

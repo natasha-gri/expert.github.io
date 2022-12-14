@@ -68,11 +68,12 @@
 }
 .portfolio-case_description-content{
   &-title{
+    margin-bottom: 10px;
     @extend .first-font;
     font-style: normal;
     font-weight: 800;
     font-size: 1.8em;
-    line-height: 103%;
+    line-height: 120%;
     color: $text-h2;
   }
 }

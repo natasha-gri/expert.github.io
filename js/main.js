@@ -117,3 +117,33 @@ const swiperCase = new Swiper('.v-portfolio-case-slider', {
   },    
 });
 
+// Отзывы
+const swiperReviews = new Swiper('.v-reviews-slider', {
+  direction: 'horizontal',
+  loop: true,
+  //   autoplay: {
+  //   delay: 2000,
+  //   // прокрутка после взаимодействия с кнопками
+  //   disableOnInteraction: false,
+  // },
+  speed: 1000,
+  spaceBetween: 30,
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    942: {
+      slidesPerView: 2,
+    }
+  },
+  pagination: {
+  el: '.swiper-pagination',
+  type: 'bullets',
+  clickable: true,      
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },    
+});
+

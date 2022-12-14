@@ -50,6 +50,19 @@ footer {
 
   .clr {
     height: 398px; } }
+.container-col {
+  width: 72.91%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  column-gap: 6%; }
+
+.col-left {
+  width: 74%; }
+
+.col-right {
+  width: 20%; }
+
 /* ширина + границы сетки */
 .container-rows {
   width: 72.91%;
@@ -61,36 +74,61 @@ footer {
   margin: 0 auto; }
 
 @media (max-width: 1600px) {
+  .container-col {
+    width: 82.5%; }
+
   .container-rows {
     width: 82.5%; }
 
   .container-rows-cover {
     width: 82.5%; } }
 @media (max-width: 1280px) {
+  .container-col {
+    width: 89.53%; }
+
   .container-rows {
     width: 89.53%; }
 
   .container-rows-cover {
     width: 89.53%; } }
 @media (max-width: 1024px) {
+  .container-col {
+    width: 93.94%; }
+
   .container-rows {
     width: 93.94%; }
 
   .container-rows-cover {
     width: 93.94%; } }
 @media (max-width: 768px) {
+  .container-col {
+    width: 92.7%;
+    flex-direction: column; }
+
+  .col-left {
+    width: 100%; }
+
+  .col-right {
+    width: 100%; }
+
   .container-rows {
     width: 92.7%; }
 
   .container-rows-cover {
     width: 92.7%; } }
 @media (max-width: 480px) {
+  .container-col {
+    width: 88.33%; }
+
   .container-rows {
     width: 88.33%; }
 
   .container-rows-cover {
     width: 88.33%; } }
 @media (max-width: 360px) {
+  .container-col {
+    width: 89.44%; }
+
   .container-rows {
     width: 89.44%; }
 
@@ -742,7 +780,8 @@ label,
 
 .team-persons-buttons {
   width: 25%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 14px; }
 
 .benefit-team {
   position: absolute;
@@ -932,6 +971,39 @@ a.page-numbers {
         .cases_wrap_onecase_btn:hover .icon-arrow-topright {
           fill: white; }
 
+.services-type_wrap {
+  display: flex;
+  column-gap: 2%; }
+  .services-type_wrap_item {
+    width: 24%; }
+
+.reviews_wrap {
+  width: 86%;
+  margin: 0 auto; }
+  .reviews_wrap_item {
+    display: flex; }
+    .reviews_wrap_item img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%; }
+
+.team-persons-right {
+  display: flex;
+  flex-direction: column; }
+
+@media (max-width: 768px) {
+  .team-persons-right {
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 4%; }
+    .team-persons-right-wrap {
+      width: 46%; } }
+@media (max-width: 480px) {
+  .team-persons-right {
+    flex-direction: column;
+    row-gap: 4%; }
+    .team-persons-right-wrap {
+      width: 100%; } }
 .potfolio-case-header-title {
   font-style: normal;
   font-weight: 800;
@@ -984,10 +1056,11 @@ a.page-numbers {
   color: #28468C; }
 
 .portfolio-case_description-content-title {
+  margin-bottom: 10px;
   font-style: normal;
   font-weight: 800;
   font-size: 1.8em;
-  line-height: 103%;
+  line-height: 120%;
   color: #767676; }
 
 @media (max-width: 1280px) {
@@ -1133,15 +1206,19 @@ footer {
     background-color: #8383B6;
     color: white; }
 
-.team-persons-button-wrap {
-  margin-top: 14px;
+.slider-buttons1_wrap {
   display: flex;
   justify-content: center;
   column-gap: 6px; }
 
 @media (max-width: 768px) {
-  .team-persons-button-wrap {
+  .slider-buttons1_wrap {
     column-gap: 26px; } }
+.slider-buttons1_wrap {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 6px; }
+
 /* 2_desctop-от 1280 до 1600 */
 @media (max-width: 1600px) {
   .team-header {

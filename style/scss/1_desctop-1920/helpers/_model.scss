@@ -63,6 +63,25 @@ footer {
 }
 // конец правила для прижатия футера
 
+// ====== 2 КОЛОНКИ ширина и границы сетки
+.container-col{
+  width: 72.91%; // 1400/1920
+  margin: 0 auto;
+  //outline: 1px solid rgb(216, 10, 206);
+  box-sizing: border-box;
+  display: flex;
+  column-gap: 6%;
+}
+.col-left{
+  width: 74%;
+  //background-color: rgb(234, 234, 234);
+}
+.col-right{
+  width: 20%;
+  //background-color: rgb(219, 219, 219);
+}
+// ====== END 2 КОЛОНКИ
+
 // ====== 2 стили ширина и границы сетки
 /* ширина + границы сетки */
 .container-rows {
@@ -78,6 +97,9 @@ footer {
   //box-sizing: border-box;
 }
 @media (max-width : 1600px) {
+  .container-col {
+    width: 82.5%; // 1320/1600
+  }
   .container-rows {
     width: 82.5%; // 1320/1600
   }
@@ -86,6 +108,9 @@ footer {
   }
 }
 @media (max-width : 1280px) {
+  .container-col {
+    width: 89.53%; // 1146/1280
+  }
   .container-rows {
     width: 89.53%; // 1146/1280
   }
@@ -94,6 +119,9 @@ footer {
   }
 }
 @media (max-width : 1024px) {
+  .container-col {
+    width: 93.94%; // 962/1024
+  }
   .container-rows {
     width: 93.94%; // 962/1024
   }
@@ -102,6 +130,16 @@ footer {
   }
 }
 @media (max-width : 768px) {
+  .container-col {
+    width: 92.7%; // 712/768
+    flex-direction: column;
+  }
+  .col-left{
+    width: 100%;
+  }
+  .col-right{
+    width: 100%;
+  }
   .container-rows {
     width: 92.7%; // 712/768
   }
@@ -110,6 +148,9 @@ footer {
   }
 }
 @media (max-width : 480px) {
+  .container-col {
+    width: 88.33%; // 424/480
+  }
   .container-rows {
     width: 88.33%; // 424/480
   }
@@ -118,6 +159,9 @@ footer {
   }
 }
 @media (max-width : 360px) {
+  .container-col {
+    width: 89.44%; // 322/360
+  }
   .container-rows {
     width: 89.44%; // 322/360
   }
