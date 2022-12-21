@@ -34,6 +34,32 @@ h2 {
   line-height: 108%;
   color: $text-h2;
 }
+h3 {
+  @extend .first-font;
+  font-size: 2em; //32
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 108%;
+  color: $text-h2;
+}
+h4 {
+  @extend .first-font;
+  font-size: 1.6em; //32
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 108%;
+  color: $text-h2;
+}
+.services-type_wrap_item_title{
+  @extend .first-font;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.2em;
+  line-height: 120%;
+  color: $text-h1;
+}
 .page-title {
   margin-bottom: 14px;
 }
@@ -90,7 +116,7 @@ p {
   text-align: right;
   color: $text-h1;
 }
-.team-persons-wrap-person-footer p:nth-child(1), .team-persons-wrap-person-footer p:nth-child(2){
+.team-persons-wrap-person-footer p:nth-child(1), .team-persons-wrap-person-footer p:nth-child(2), .team-persons-right-wrap-person-footer p:nth-child(1), .team-persons-right-wrap-person-footer p:nth-child(2){
   @extend .first-font;
   font-style: normal;
   font-weight: 800;
@@ -108,6 +134,13 @@ p {
   text-align: right;
   color: $text-basic-p;
 }
+// ***************** отзывы
+.reviews_wrap_item_header_title{
+  font-size: 1.6em;
+  font-weight: 800;
+}
+
+
 // ***************** news
 .news__item-img__date{
   @extend .first-font;

@@ -31,3 +31,20 @@
   column-gap: 6px;
 }
 
+
+.swiper-pagination-bullet{
+    width: 12px;
+    height: 12px;
+    margin: 2px;
+    display: inline-block;
+    background-color: rgb(66, 66, 66);
+    border-radius: 50%;
+    &-active{
+        width: 14px;
+        height: 14px;
+        margin: 2px;
+        display: inline-block;
+        border-radius: 50%;
+        background-color: $icon-color-blue;
+    }
+}

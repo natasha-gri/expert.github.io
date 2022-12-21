@@ -78,7 +78,17 @@ footer {
 }
 .col-right{
   width: 20%;
-  //background-color: rgb(219, 219, 219);
+  position: relative;
+  padding-left: 20px;
+  &:before{
+    content: '';
+    width: 1px;
+    height: 90%;
+    background-color: #e4e4e4;
+    position: absolute;
+    top: 46px;
+    left: 0;
+  }
 }
 // ====== END 2 КОЛОНКИ
 
@@ -139,6 +149,10 @@ footer {
   }
   .col-right{
     width: 100%;
+    padding-left: 0;
+    &:before{
+      content: none;
+    }
   }
   .container-rows {
     width: 92.7%; // 712/768
