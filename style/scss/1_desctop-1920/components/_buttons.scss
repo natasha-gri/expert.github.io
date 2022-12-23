@@ -12,7 +12,12 @@
   }
 }
 
-// кнопки слайдера команды
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  content: none;
+}
+
+// 1 ********** кнопки слайдера команды
 .slider-buttons1_wrap{  
   display: flex;
   justify-content: center;
@@ -23,14 +28,64 @@
     column-gap: 26px;
   }  
 }
+// ___END ********** кнопки слайдера кейса
 
-// кнопки слайдера oтзывов
-.slider-buttons1_wrap{  
+// 2 ********** кнопки слайдера oтзывов
+.slider-buttons2-wrap{
+  position: absolute;
+  right: 12%;
+  bottom: -3px;
   display: flex;
-  justify-content: space-between;
-  column-gap: 6px;
+  justify-content: flex-start;
+  column-gap: 20px;
+}
+@media (max-width: 1600px){
+  .slider-buttons2-wrap{
+    right: 11%;
+}
+}
+.slider-buttons2-wrap .icon-left-arrow-empty{
+width: 40px;
+height: 40px;
 }
 
+.slider-buttons2-wrap .icon-right-arrow-empty{
+width: 40px;
+height: 40px;
+}
+// ___END ********** кнопки слайдера кейса
+
+// 3 ********** кнопки слайдера проектов
+.slider-proc-main{
+ position: relative;
+}
+.proc-buttons{
+  // position: absolute;
+  // top: 50%;
+}
+.slider-buttons3_wrap{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.slider-buttons3_wrap .icon-left-arrow-empty{
+  width: 40px;
+  height: 40px;
+  &:hover{
+    background-color: #7f7ffa8a;
+  }
+}
+  
+.slider-buttons3_wrap .icon-right-arrow-empty{
+  width: 40px;
+  height: 40px;
+  &:hover{
+    background-color: #7f7ffa8a;
+  }
+}
+// ___END ********** кнопки слайдера проектов
 
 .swiper-pagination-bullet{
     width: 12px;
@@ -48,3 +103,4 @@
         background-color: $icon-color-blue;
     }
 }
+

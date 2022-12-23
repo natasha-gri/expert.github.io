@@ -1,12 +1,5 @@
 .cover-services{
   height: 270px;
-  background-image: url(../../img/cover.jpg);
-  background-position: center; 
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 5px;
-  background-color: grey;
-
   &_header{    
     display: flex;
     justify-content: center;
@@ -27,6 +20,15 @@
       }
     }
   }
+}
+
+.cover-services-img{
+  background-image: url(../../img/cover.jpg);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  background-color: grey;
 }
 
 .cases_wrap{

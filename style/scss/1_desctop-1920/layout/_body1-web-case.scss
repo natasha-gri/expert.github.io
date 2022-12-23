@@ -32,29 +32,6 @@
   }
 }
 
-.portfolio-case_buttons-wrap{
-    position: absolute;
-    right: 12%;
-    bottom: -3px;
-    display: flex;
-    justify-content: flex-start;
-    column-gap: 20px;
-  }
-  @media (max-width: 1600px){
-    .portfolio-case_buttons-wrap{
-      right: 11%;
-  }
-}
-.portfolio-case_buttons-wrap .icon-left-arrow-empty{
-  width: 40px;
-  height: 40px;
-}
-
-.portfolio-case_buttons-wrap .icon-right-arrow-empty{
-  width: 40px;
-  height: 40px;
-}
-
 .cases-other{
   &_title{
     margin-bottom: 25px;

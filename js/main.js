@@ -140,10 +140,33 @@ const swiperReviews = new Swiper('.v-reviews-slider', {
   el: '.swiper-pagination',
   type: 'bullets',
   clickable: true,      
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
   },    
 });
 
+// слайдеры процесса
+var sliderprocmini = new Swiper(".slider-proc-mini", {
+  
+  spaceBetween: 15,
+  slidesPerView: 5,
+  freeMode: true,
+  watchSlidesProgress: true,
+  breakpoints: {
+    320: {
+      direction: 'horizontal',
+    },
+    481: {
+      direction: 'vertical',
+    },
+  },
+});
+var sliderprocmain = new Swiper(".slider-proc-main", {
+  loop: true,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  thumbs: {
+    swiper: sliderprocmini,
+  },
+});

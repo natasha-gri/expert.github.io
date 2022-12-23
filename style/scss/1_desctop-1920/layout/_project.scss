@@ -1,0 +1,60 @@
+// Слайдер процесса 
+// .v-swiper-slide {
+//   background-size: cover;
+//   background-position: center;
+// }
+.page-project-header h2{
+  margin-bottom: 20px;
+}
+.v-slider-proc{
+  display: flex;
+  column-gap: 15px;
+}
+
+.v-slider-proc-main {
+  width: 80%;
+  height: auto;
+}
+
+.big-wrapper{
+  height: 70vh;  
+}
+
+.v-slider-proc-mini {  
+  width: 20%;
+  height: 70vh;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.v-slider-proc-mini .v-swiper-slide {
+  height: 100%;
+  opacity: 0.4;
+}
+
+.v-slider-proc-mini .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.v-swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  //border-radius: 20px;
+}
+
+@media (max-width : 480px){
+  .v-slider-proc{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .v-slider-proc-main {
+    width: 100%;
+  }
+  .v-slider-proc-mini {  
+    width: 100%;
+    height: 70px;
+  }
+}
