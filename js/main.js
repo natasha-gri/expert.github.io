@@ -145,19 +145,19 @@ const swiperReviews = new Swiper('.v-reviews-slider', {
 
 // слайдеры процесса
 var sliderprocmini = new Swiper(".slider-proc-mini", {
-  
+  direction: 'horizontal',
   spaceBetween: 15,
   slidesPerView: 5,
   freeMode: true,
   watchSlidesProgress: true,
-  breakpoints: {
-    320: {
-      direction: 'horizontal',
-    },
-    481: {
-      direction: 'vertical',
-    },
-  },
+  // breakpoints: {
+  //   320: {
+  //     direction: 'horizontal',
+  //   },
+  //   481: {
+  //     direction: 'vertical',
+  //   },
+  //},
 });
 var sliderprocmain = new Swiper(".slider-proc-main", {
   loop: true,
