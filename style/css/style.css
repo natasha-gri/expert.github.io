@@ -1369,6 +1369,22 @@ a.page-numbers {
   border-radius: 5px;
   background-color: grey; }
 
+.cover-services-img {
+  background-image: url(../../img/cover-services.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  background-color: grey; }
+
+.cover-web-img {
+  background-image: url(../../img/cover-case.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  background-color: grey; }
+
 .cover-1c-img {
   background-image: url(../../img/cover-services.jpg);
   background-position: center;

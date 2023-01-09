@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style/css/fonts.css">
     <link rel="stylesheet" href="style/css/iconsprit.css">
     <link rel="stylesheet" href="style/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style/css/custom-bootstrap.css">
     <link rel="stylesheet" href="style/css/style.css">
     <script defer src="js/bootstrap.bundle.min.js"></script>
     <script defer src="js/swiper-bundle.min.js"></script>
@@ -56,20 +57,17 @@
                     
 
                 </div>
-                <!-- Меню свое -->
-                <div class="top-header-menu container-rows-cover">
-                    <!-- Лого мобильное-->
+
+                <!-- Меню -->  
+                <!-- <div class="top-header-menu container-rows-cover">
                     <div class="top-header-top-logowrapt-logo mobile-logo">
                         <a href="/index.html"><img src="img/logo-mobile.png"
                             alt="logo-mobile" width="140">
                         </a>
                     </div>
-
-                    <!-- Меню -->
                     <div id="mainMenu" class="main-header-menu">
                         <label for="menu" class="main-header-menu-label"></label>
                         <input id="menu" type="checkbox" class="main-header-menu-input">
-                        <!-- Меню десктоп под WP-->
                         <nav class="main-header-menu-wrp menu" id="#">
                             <ul class="menu-list">
                                 <li class="menu-item">
@@ -130,11 +128,8 @@
                             </ul>
 
                         </nav>
-                        <!-- Меню END -->
                     </div>
-                </div>
-                <br>
-
+                </div> -->
             </div>
 
             <!-- Меню Бутстрап -->
@@ -147,19 +142,35 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">                                      
-                            <li class="nav-item dropdown">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">   
+                            <!-- класс menu-item убрать при переносе на wp, тк он генерируется движком -->
+                            <li class="menu-item nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Услуги
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">1 пункт</a></li>
-                            <li><a class="dropdown-item" href="#">2 пункт</a></li>
-                            <li><a class="dropdown-item" href="#">3 пункт</a></li>
+                            <li><a class="dropdown-item" href="page-services_1с.html">1C сопровождение</a></li>
+                            <li><a class="dropdown-item" href="page-content.html">Бухгалтерское обслуживание</a></li>
+                            <li><a class="dropdown-item" href="page-content.html">Онлайн касса</a></li>
+                            <li><a class="dropdown-item" href="page-services_repair.html">Сборка, ремонт, обслуживание компьютеров</a></li>
+                            <li><a class="dropdown-item" href="page-services_portfolio-web.html">Создание сайтов</a></li>
                             </ul>
                             </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="#">Школа</a>
+                            <li class="menu-item nav-item">
+                            <a class="nav-link" href="#">IT-школа</a>
+                            </li>
+                            <li class="menu-item nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                О нас
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="page-content.html">О компании</a></li>
+                                <li><a class="dropdown-item" href="page-news.html">Новости</a></li>
+                                <li><a class="dropdown-item" href="page-content.html">Реквизиты</a></li>
+                                </ul>
+                                </li>
+                            <li class="menu-item nav-item">
+                            <a class="nav-link" href="page-content.html">Контакты</a>
                             </li>
                         </ul>
     
@@ -192,28 +203,28 @@
                                 </div>
                                 <div class="services-cards">
                                     <!-- 1 -->
-                                    <a href="/page-services_1с.html" class="services-cards-card">
+                                    <a href="page-services_1с.html" class="services-cards-card">
                                         <svg class="icon-1c">
                                             <use xlink:href="#1C"></use>
                                         </svg>
                                         <p>1С сопровождение</p>
                                     </a>
                                     <!-- 1 -->
-                                    <a href="#" class="services-cards-card">
+                                    <a href="page-content.html" class="services-cards-card">
                                         <svg class="icon-accounting">
                                             <use xlink:href="#accounting"></use>
                                         </svg>
                                         <p>Бухгалтерское</br>обслуживание</p>
                                     </a>
                                     <!-- 1 -->
-                                    <a href="#" class="services-cards-card">
+                                    <a href="page-content.html" class="services-cards-card">
                                         <svg class="icon-box-office">
                                             <use xlink:href="#box-office"></use>
                                         </svg>
                                         <p>Онлайн касса</p>
                                     </a>
                                     <!-- 1 -->
-                                    <a href="/page-services_repair.html" class="services-cards-card">
+                                    <a href="page-services_repair.html" class="services-cards-card">
                                         <svg class="icon-computer-service">
                                             <use xlink:href="#computer-service"></use>
                                         </svg>
@@ -221,7 +232,7 @@
                                         </br>компьютеров</p>
                                     </a>
                                     <!-- 1 -->
-                                    <a href="/page-services_portfolio-web.html" class="services-cards-card">
+                                    <a href="page-services_portfolio-web.html" class="services-cards-card">
                                         <svg class="icon-creating-website">
                                             <use xlink:href="#creating-website"></use>
                                         </svg>

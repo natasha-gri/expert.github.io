@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style/css/fonts.css">
     <link rel="stylesheet" href="style/css/iconsprit.css">
     <link rel="stylesheet" href="style/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style/css/custom-bootstrap.css">
     <link rel="stylesheet" href="style/css/style.css">
     <script defer src="js/bootstrap.bundle.min.js"></script>
     <script defer src="js/swiper-bundle.min.js"></script>
@@ -20,12 +21,12 @@
 
 <body>
 <div class="main-container hidden-for-mobile">
-<header>
-    <!-- Верхнее меню -->
-    <!-- Фиксация сверху, цвет фона + центрирование по вертикали-->
-    <div class="top-header padding-block-header">
-        <!-- центрирование по сторонам блока + границы сетки -->
-        <div class="top-header-top container-rows-cover">                    
+    <header>
+        <!-- Верхнее меню -->
+        <!-- Фиксация сверху, цвет фона + центрирование по вертикали-->
+        <div class="top-header padding-block-header">
+            <!-- центрирование по сторонам блока + границы сетки -->
+            <div class="top-header-top container-rows-cover">                    
                 <!-- Лого -->
                 <div class="top-header-top-logowrap">
                     <div class="top-header-top-logowrap-logo">
@@ -33,12 +34,7 @@
                             alt="logo-desctop" width="190">
                         </a>
                     </div>    
-                    <!-- Лого мобильное-->
-                    <div class="top-header-top-logowrapt-logo mobile-logo">
-                        <a href="/index.html"><img src="img/logo.png"
-                            alt="logo-mobile" width="100">
-                        </a>
-                    </div>
+
                     <div class="top-header-top-logowrap-description">
                         <p>Центр сопровождения</br>бизнеса</p>
                     </div>
@@ -48,89 +44,74 @@
                     <div>
                         <p>Тобольск, 7 мкр.,</br>дом 39, офис №8</p>
                     </div>
-                    <div>
+                    <a href="tel:8(3456)27-30-01">
                         <p>+7 (3456) 27-30-01</p>
                         <p>пн-пт: 9:00 - 17:30</p>    
-                    </div>
-                    <div>
+                    </a>
+                    <a href="https://vk.com/expert_tob" target="_blank">
                         <svg class="icon-vk">
                             <use xlink:href="#vk"></use>
-                          </svg>
-                    </div>
+                        </svg>
+                    </a>
                 </div>
             
 
-        </div>
-        <div class="top-header-menu container-rows-cover">
-            <!-- Меню -->
-            <div id="mainMenu" class="main-header-menu">
-                <label for="menu" class="main-header-menu-label"></label>
-                <input id="menu" type="checkbox" class="main-header-menu-input">
-                <!-- Меню десктоп под WP-->
-                <nav class="main-header-menu-wrp menu" id="#">
-                    <ul class="menu-list">
-                        <li class="menu-item">
-                            <a href="/index.html">Услуги</a>
-                            <span class="menu-arrow arrow"></span>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="#">1C сопровождение</a>
-                                </li>
-                                <li>
-                                    <a href="#">Бухгалтерское обслуживание</a>
-                                </li>
-                                <li>
-                                    <a href="#">Онлайн касса</a>
-                                </li>
-                                <li>
-                                    <a href="#">Сборка, ремонт, обслуживание компьютеров</a>
-                                </li>
-                                <li>
-                                    <a href="#">Создание сайтов</a>
-                                </li>
-                                <li>
-                                    <a href="#">IT школа экспертов</a>
-                                </li>
-                            </ul>
-                        <li class="menu-item">
-                            <a href="/page-name1.html">Товары</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="/page-name2.htmll">IT-школа</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="/page-name3.html">О нас</a>
-                            <span class="menu-arrow arrow"></span>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="#">О компании</a>
-                                </li>
-                                <li>
-                                    <a href="#">Сотрудники</a>
-                                </li>
-                                <li>
-                                    <a href="#">Реквизиты</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a href="/contacts.html">Контакты</a>
-                        </li>
-                    </ul>
-
-                </nav>
-                <!-- Меню END -->
             </div>
         </div>
-    </div>
+            <!-- Меню Бутстрап -->
+            <div class="top-header-menu2 container-rows-cover">
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="img/logo-mobile.png"
+                            alt="logo-mobile" width="140"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">   
+                            <!-- класс menu-item убрать при переносе на wp, тк он генерируется движком -->
+                            <li class="menu-item nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Услуги
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="page-services_1с.html">1C сопровождение</a></li>
+                            <li><a class="dropdown-item" href="page-content.html">Бухгалтерское обслуживание</a></li>
+                            <li><a class="dropdown-item" href="page-content.html">Онлайн касса</a></li>
+                            <li><a class="dropdown-item" href="page-services_repair.html">Сборка, ремонт, обслуживание компьютеров</a></li>
+                            <li><a class="dropdown-item" href="page-services_portfolio-web.html">Создание сайтов</a></li>
+                            </ul>
+                            </li>
+                            <li class="menu-item nav-item">
+                            <a class="nav-link" href="#">IT-школа</a>
+                            </li>
+                            <li class="menu-item nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                О нас
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="page-content.html">О компании</a></li>
+                                <li><a class="dropdown-item" href="page-news.html">Новости</a></li>
+                                <li><a class="dropdown-item" href="page-content.html">Реквизиты</a></li>
+                                </ul>
+                                </li>
+                            <li class="menu-item nav-item">
+                            <a class="nav-link" href="page-content.html">Контакты</a>
+                            </li>
+                        </ul>
+    
+                    </div>
+                    </div>
+                </nav>
+            </div>
 
-</header>
+    </header>
 
 <main>
 <!-- 3 блок Новости -->
 <section>
   <!-- цвет фона + падинги сверху-снизу -->
-  <div class="news padding-block-text">
+  <div class="news padding-block-content">
       <!-- стили контента + границы сетки -->
       <div class="container-rows">                        
            <!-- заголовок -->

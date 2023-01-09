@@ -1,0 +1,59 @@
+/* стили для меню бутстрапа для wp */
+@charset "UTF-8";
+p{
+  margin-bottom: 0;
+}
+
+/*Меню*/
+
+.nav-link:focus, .nav-link:hover {
+    color: white;
+    background-color: #ffffff1c;
+    border-radius: 5px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white;
+    background-color: #ffffff1c;
+    border-radius: 5px;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #134cd1;
+    text-decoration: none;
+    background-color: white;
+}
+.dropdown-menu{
+  border-radius: 0;
+}
+.dropdown-menu>li>a{
+  text-transform: inherit;
+  color: #134cd1;
+}
+.dropdown-menu>li>a:hover{
+  color: #134cd1;
+}
+.dropdown-toggle::after{
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+.navbar-toggler:focus{
+  color: #ffffff87;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+      width: 100%;
+      justify-content: center;
+      column-gap: 14px;
+  }
+}
+@media (max-width: 992px) {
+  .nav-link:focus, .nav-link:hover {
+      color: white;
+      background-color: #ffffff00;
+      border-radius: 5px;
+  }
+  .dropdown-item{
+    text-align: center;
+    white-space: normal;
+}
+}
