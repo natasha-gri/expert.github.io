@@ -1346,21 +1346,26 @@ a.page-numbers {
 .reviews_wrap {
   margin-bottom: 54px; }
   .reviews_wrap_item {
+    height: auto;
+    padding: 10px 20px 20px 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+    background-color: #F1F4F8;
+    border-radius: 5px; }
     .reviews_wrap_item_header {
       margin-bottom: 10px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
       .reviews_wrap_item_header img {
-        width: 100px;
-        height: 100px;
+        width: 52px;
+        height: 52px;
+        margin-top: 15px;
         margin-right: 15px;
         border-radius: 50%; }
 
