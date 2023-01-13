@@ -1,12 +1,74 @@
+.projects-all{
+  & h2{
+    margin-bottom: 40px;
+  }
+  &_item{
+  //display: flex;
+  margin-bottom: 40px;
+  text-decoration: none;
+  &_logo{
+    width: 30%;
+    margin-right: 20px;
+    float: left;
+    & img{
+      &:hover{
+        transform: scale(1.025);
+        transition: all 0.2s ease-in-out;
+      }
+    }
+  }
+  &_content{
+    margin-bottom: 40px;
+    & h4{
+      margin-bottom: 10px;
+    }
+    &_brend{
+      & span{
+        margin-right: 20px;
+      }
+    }
+    &_sector{
+      & span{
+        margin-right: 24px;
+      }
+    }
+  }
+}
+}
+.clearfix:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+@media (max-width: 768px){
+  .projects-all{
+    &_item{
+
+    }
+  }
+}
 .page-project-content h2{
   margin-bottom: 20px;
 }
 
-.page-project-content_wrap{
-  display: flex;
-  column-gap: 2%;
-  &_item{
-    width: 49%;
+// .page-project-content_wrap{
+//   display: flex;
+//   column-gap: 2%;
+//   &_item{
+//     width: 49%;
+//   }
+// }
+
+.page-project-content_wrap_item_left{
+  float: left;
+  width: 49%;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+@media (max-width: 768px){
+  .page-project-content_wrap_item_left{
+    width: 100%;
+
   }
 }
 
@@ -65,5 +127,20 @@
   .v-slider-proc-mini {  
     width: 100%;
     height: 70px;
+  }
+}
+
+.project-btn{
+  display: flex;
+  justify-content: center;
+  & a{
+    width: 35vh;
+  }
+}
+@media (max-width: 480px) {
+  .project-btn{
+    & a{
+      width: 100vh;
+    }
   }
 }
