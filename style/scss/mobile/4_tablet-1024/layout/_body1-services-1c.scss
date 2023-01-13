@@ -1,0 +1,23 @@
+@media (max-width : 1024px){
+  .form-1c{
+    height: auto;
+    &_wrap{
+      flex-direction: column;
+      row-gap: 20px;
+      background-position: 94% -100%;
+      background-repeat: no-repeat;
+      background-size: 30%;
+    }
+  }
+  .clients-1c{
+    &_header{
+    }
+    &-wrap{
+      justify-content: space-evenly;
+      row-gap: 25px;
+      & img{
+        width: 26%;
+      }
+    }
+  }
+}

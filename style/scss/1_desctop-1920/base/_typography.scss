@@ -245,6 +245,7 @@ p {
   font-weight: 600;
   font-size: 1.2em;
   text-decoration: none;
+  line-height: 110%;
   color: $text-h1;
   position: relative;
   &:hover:after{
@@ -263,6 +264,7 @@ p {
     font-style: normal;
     font-weight: 600;
     font-size: 2em;
+    line-height: 120%;
     color: white;
   }
   & p:nth-child(2){
