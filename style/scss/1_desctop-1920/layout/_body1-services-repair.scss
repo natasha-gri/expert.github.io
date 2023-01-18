@@ -166,6 +166,7 @@
   }
   .team-persons-right{
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     column-gap: 4%;
     &-wrap{

@@ -166,6 +166,7 @@
                                 </div>
                             </div>                        
                         </div>
+
                     </section>
 
                     <!-- 3 блок Виды продукты, сервисы -->
@@ -176,7 +177,8 @@
                                 <div class="products-1c_type_wrap">
                                     <!-- 1 -->
                                     <a href="page-services_services-type.html" class="products-1c_type_wrap_item"> 
-                                        <div class="products-1c_type_wrap_item_img">
+                                        <div class="products-1c_type_wrap_item_img img-svg">
+                                            <!-- <img src="/img/Group 824.jpg" alt=""> -->
                                             <svg class="icon-company">
                                                 <use xlink:href="#company"></use>
                                             </svg>
@@ -188,7 +190,8 @@
                                     </a>
                                     <!-- 2 -->
                                     <a href="page-services_services-type.html" class="products-1c_type_wrap_item"> 
-                                        <div class="products-1c_type_wrap_item_img">
+                                        <div class="products-1c_type_wrap_item_img img-svg">
+                                            <!-- <img src="/img/Group 824.jpg" alt=""> -->
                                             <svg class="icon-globe">
                                                 <use xlink:href="#globe"></use>
                                             </svg>
@@ -200,7 +203,8 @@
                                     </a>
                                     <!-- 3 -->
                                     <a href="page-services_services-type.html" class="products-1c_type_wrap_item"> 
-                                        <div class="products-1c_type_wrap_item_img">
+                                        <div class="products-1c_type_wrap_item_img img-svg">
+                                            <!-- <img src="/img/Group 824.jpg" alt=""> -->
                                             <svg class="icon-report">
                                                 <use xlink:href="#report"></use>
                                             </svg>
@@ -213,9 +217,10 @@
                                     <!-- 4 -->
                                     <a href="page-services_services-type.html" class="products-1c_type_wrap_item"> 
                                         <div class="products-1c_type_wrap_item_img">
-                                            <svg class="icon-fingerprint">
+                                            <img src="/img/Group 824.jpg" alt="">
+                                            <!-- <svg class="icon-fingerprint">
                                                 <use xlink:href="#fingerprint"></use>
-                                            </svg>
+                                            </svg> -->
                                         </div>          
                                         <div class="products-1c_type_wrap_item_text">
                                             <h4 class="h4-products-1c_type">1С Контрагент</h4>
@@ -225,9 +230,10 @@
                                     <!-- 5 -->
                                     <a href="page-services_services-type.html" class="products-1c_type_wrap_item"> 
                                         <div class="products-1c_type_wrap_item_img">
-                                            <svg class="icon-exchange">
+                                            <img src="/img/Group 824.jpg" alt="">
+                                            <!-- <svg class="icon-exchange">
                                                 <use xlink:href="#exchange"></use>
-                                            </svg>
+                                            </svg> -->
                                         </div>          
                                         <div class="products-1c_type_wrap_item_text">
                                             <h4 class="h4-products-1c_type">1С ЭДО</h4>
@@ -237,9 +243,10 @@
                                     <!-- 6 -->
                                     <a href="page-services_services-type.html" class="products-1c_type_wrap_item"> 
                                         <div class="products-1c_type_wrap_item_img">
-                                            <svg class="icon-book">
+                                            <img src="/img/Group 824.jpg" alt="">
+                                            <!-- <svg class="icon-book">
                                                 <use xlink:href="#book"></use>
-                                            </svg>
+                                            </svg> -->
                                         </div>          
                                         <div class="products-1c_type_wrap_item_text">
                                             <h4 class="h4-products-1c_type">1С ИТС</h4>
@@ -254,7 +261,8 @@
                     <!-- 4 Форма -->
                     <section>
                         <div class="padding-block-content">
-                            <div class="form-1c">
+
+                            <!-- <div class="form-1c">
                                 <div class="form-1c_wrap">
                                     <div class="form-1c_wrap_text">
                                         <p>Нужны компетеные специалисты 1С?</p>
@@ -262,9 +270,67 @@
                                     </div>
                                     <a href="#" class="form-1c_wrap_link">Заказать</a>
                                 </div>
+                            </div> -->
+
+                            <div class="form-1c">
+                                <div class="form-1c_wrap">
+                                    <div class="form-1c_wrap_text">
+                                        <p>Нужны компетеные специалисты 1С?</p>
+                                        <p>Обращайтесь с задачей любой сложности</p>
+                                    </div>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="form-1c_wrap_link" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        Заказать
+                                    </button>
+                                    
+                                    <!-- Modal -->
+                                    <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Форма заявки</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                            <form action="">
+                                                <p>
+                                                    <span>
+                                                        <input type="text" name="itexpert-name-user-on" class="modal-body_name" placeholder="ваше имя">
+                                                    </span>
+                                                    <br>
+                                                    <span>
+                                                        <input type="email" name="itexpert-email-user-on" class="modal-body_email" placeholder="ваш email">
+                                                    </span>
+                                                    <br>
+                                                    <span>
+                                                        <input type="text" name="itexpert-subject-user-on" class="modal-body_subject" placeholder="какой продукт/услуга?">
+                                                    </span>
+                                                    <br>
+                                                    <span>
+                                                        <textarea name="itexpert-message-user-off" class="modal-body_messege" placeholder="ваше сообщение (не обязательно)"></textarea>
+                                                    </span>
+                                                    <br>
+                                                    <span>
+                                                        <input type="submit" value="Отправить" class="modal-body_btn-form">
+                                                    </span>
+                                                    
+                                                </p>
+                                            </form>
+                                            </div>
+                                            <!-- <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Understood</button>
+                                            </div> -->
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+
+
                         </div>
                     </section>
+
 
                     <!-- 2 блок Клиенты -->
                     <section>
@@ -985,6 +1051,6 @@
         </symbol>
     </svg>
 
-</body>
 
+</body>
 </html>

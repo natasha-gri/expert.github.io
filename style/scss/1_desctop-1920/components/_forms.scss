@@ -1,0 +1,53 @@
+.modal-header{
+  border-bottom: none;
+}
+
+.modal-dialog{
+  margin-top: 225px;
+}
+
+@media (max-width : 360px){
+  .modal-dialog{
+    margin-top: 115px;
+  }  
+}
+
+/* form 1C */
+.modal-body_name, .modal-body_email, .modal-body_subject, .modal-body_messege{
+  width: 458px;
+ height: 46px;
+ margin-bottom: 10px;
+ border: none;
+ border-bottom: 1px solid #c3c3c3;
+}
+
+.modal-body_messege{
+padding-top: 10px;
+margin-bottom: 32px;
+}
+
+.modal-body_name:focus-visible, .modal-body_email:focus-visible, .modal-body_subject:focus-visible, .modal-body_messege:focus-visible{
+outline: none;
+border-bottom: 1px solid #28468C;
+}
+
+.modal-body_btn-form{
+width: 200px;
+height: 38px;
+margin: 0 auto;
+border: none;
+background-color: #516EBD;
+color: white;
+}
+
+.modal-body > form > p{
+  max-width: 100%;
+}
+.modal-body > form > p > span > input{
+max-width: 100%;
+}
+.modal-body > form > p > span > textarea{
+max-width: 100%;
+}
+
+/* end form */

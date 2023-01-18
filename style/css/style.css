@@ -809,10 +809,6 @@ button {
   .sub-menu > li > a:after {
     content: none; }
 
-label,
-#menu {
-  display: none; }
-
 .bg-light {
   background-color: rgba(255, 255, 255, 0) !important; }
 
@@ -1455,6 +1451,8 @@ a.page-numbers {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -1566,6 +1564,16 @@ a.page-numbers {
     .services-1c_type_wrap_item span {
       width: 44px; }
 
+.img-svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px; }
+  .img-svg:hover {
+    background: #e7e7e770; }
+    .img-svg:hover svg {
+      fill: #28468C; }
+
 .products-1c_type h3 {
   margin-bottom: 40px; }
 .products-1c_type_wrap {
@@ -1585,18 +1593,21 @@ a.page-numbers {
     width: 45%;
     text-decoration: none; }
     .products-1c_type_wrap_item_img {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      width: 89px;
+      width: 20%;
       height: 89px;
-      padding: 15px;
       background: linear-gradient(89.97deg, #4469BF 0.04%, #8383B6 98.83%); }
       .products-1c_type_wrap_item_img:hover {
-        background: #e7e7e770; }
-        .products-1c_type_wrap_item_img:hover svg {
-          fill: #28468C; }
+        -webkit-transform: scale(1.025);
+                transform: scale(1.025);
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out; }
+      .products-1c_type_wrap_item_img img {
+        -o-object-fit: cover;
+           object-fit: cover;
+        width: 100%;
+        height: 100%; }
     .products-1c_type_wrap_item_text {
+      width: 80%;
       padding-left: 20px; }
       .products-1c_type_wrap_item_text h4 {
         margin-bottom: 10px; }
@@ -1762,7 +1773,7 @@ a.page-numbers {
   margin-bottom: 40px;
   text-decoration: none; }
   .projects-all_item_logo {
-    width: 30%;
+    width: 20%;
     margin-right: 20px;
     float: left; }
     .projects-all_item_logo img:hover {
@@ -1931,7 +1942,8 @@ footer {
       align-content: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  padding: 5px 0 5px 0; }
 
 .v-clients-slide img {
   width: 50%; }
@@ -1956,7 +1968,8 @@ footer {
       align-content: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  padding: 5px 0 5px 0; }
 
 .v2-clients-slide img {
   width: 55%; }
@@ -2073,6 +2086,49 @@ footer {
     border-radius: 50%;
     background-color: #28468C; }
 
+.modal-header {
+  border-bottom: none; }
+
+.modal-dialog {
+  margin-top: 225px; }
+
+@media (max-width: 360px) {
+  .modal-dialog {
+    margin-top: 115px; } }
+/* form 1C */
+.modal-body_name, .modal-body_email, .modal-body_subject, .modal-body_messege {
+  width: 458px;
+  height: 46px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #c3c3c3; }
+
+.modal-body_messege {
+  padding-top: 10px;
+  margin-bottom: 32px; }
+
+.modal-body_name:focus-visible, .modal-body_email:focus-visible, .modal-body_subject:focus-visible, .modal-body_messege:focus-visible {
+  outline: none;
+  border-bottom: 1px solid #28468C; }
+
+.modal-body_btn-form {
+  width: 200px;
+  height: 38px;
+  margin: 0 auto;
+  border: none;
+  background-color: #516EBD;
+  color: white; }
+
+.modal-body > form > p {
+  max-width: 100%; }
+
+.modal-body > form > p > span > input {
+  max-width: 100%; }
+
+.modal-body > form > p > span > textarea {
+  max-width: 100%; }
+
+/* end form */
 /* 2_desctop-от 1280 до 1600 */
 @media (max-width: 1600px) {
   .team-header {
@@ -2249,6 +2305,9 @@ footer {
     row-gap: 25px; }
     .clients-1c-wrap img {
       width: 26%; } }
+@media (max-width: 1024px) {
+  .form-1c_wrap {
+    background-size: 0%; } }
 @media (max-width: 1204px) {
   .footer-cont {
     -webkit-box-orient: vertical;
