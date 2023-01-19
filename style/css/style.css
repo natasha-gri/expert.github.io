@@ -240,6 +240,12 @@ p, .services-cards p, .team-persons-wrap-person-footer p:nth-child(1), .team-per
 .second-font, .benefit-team-number, .benefit-news__number, .benefit-news__subtitle p:nth-child(1), .benefit-news__subtitle p:nth-child(2), .benefit-news__subtitle p:nth-child(3) {
   font-family: 'OlympicHeadline', Arial, Helvetica, sans-serif; }
 
+.wp-block-content p {
+  margin-bottom: 26px; }
+
+.wp-block-content ul {
+  margin-bottom: 26px; }
+
 h1 {
   font-size: 4.60em;
   font-weight: 800;
@@ -2096,6 +2102,17 @@ footer {
   .modal-dialog {
     margin-top: 115px; } }
 /* form 1C */
+.modal-header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .modal-header h1 {
+    width: 100%;
+    text-align: center; }
+
 .modal-body_name, .modal-body_email, .modal-body_subject, .modal-body_messege {
   width: 458px;
   height: 46px;
@@ -2115,6 +2132,7 @@ footer {
   width: 200px;
   height: 38px;
   margin: 0 auto;
+  display: block;
   border: none;
   background-color: #516EBD;
   color: white; }
