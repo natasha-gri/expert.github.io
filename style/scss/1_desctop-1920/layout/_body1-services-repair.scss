@@ -112,6 +112,7 @@
         justify-content: flex-end;
         &-img{   
           height: 180px; 
+          width: 165px;
           position: relative;
           overflow: hidden;
           & img{
@@ -149,18 +150,22 @@
       min-height: 60px;
       padding: 10px 10px 10px 10px;
       margin-bottom: 20px;
-      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       background-color: #ebeaea;
       border-radius: 5px;
       text-decoration: none;
       & p{
         text-align: center;
+        line-height: 120%;
+
       }
     }
   }
 }
 
-@media (max-width : 768px){
+@media (max-width : 986px){
   .team-persons-right-h4{
     text-align: left;
   }

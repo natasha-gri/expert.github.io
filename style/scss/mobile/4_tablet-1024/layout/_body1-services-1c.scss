@@ -21,12 +21,10 @@
       }
     }
   }
-}
-
-@media (max-width : 1024px){
-  .form-1c{
-    &_wrap{
-      background-size: 0%;
-    }
+  .products-1c_type_wrap_item_img{
+    height: 67px;
+  }    
+  .img-svg {
+    padding: 10px;
   }
 }
