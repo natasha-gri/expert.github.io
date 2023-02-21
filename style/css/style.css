@@ -1733,6 +1733,13 @@ footer {
 @media (max-width: 1600px) {
   .slider-buttons2-wrap {
     right: 11%; } }
+@media (max-width: 1280px) {
+  .slider-buttons2-wrap {
+    right: 10%; } }
+@media (max-width: 1024px) {
+  .slider-buttons2-wrap {
+    right: 10%;
+    bottom: -65px; } }
 .slider-buttons2-wrap .icon-left-arrow-empty {
   width: 40px;
   height: 40px; }
@@ -1954,77 +1961,7 @@ footer {
     width: 30%; }
   .top-header-top-logowrap-description {
     width: 70%; } }
-@media (max-width: 1140px) {
-  .news-wrap {
-    position: relative; }
-    .news-wrap-cols {
-      flex-direction: column; }
-
-  .news__title {
-    margin-bottom: 35px; }
-    .news__title h2::after {
-      display: none; }
-
-  .news__block {
-    width: 100%; }
-
-  .benefit-news {
-    display: none; } }
-@media (max-width: 941px) {
-  .news__item {
-    width: 49%; } }
-@media (max-width: 980px) {
-  .cases_wrap_onecase_btn {
-    width: 72%; } }
-@media (max-width: 1024px) {
-  .form-1c {
-    height: auto; }
-    .form-1c_wrap {
-      flex-direction: column;
-      row-gap: 20px;
-      background-position: 94% -100%;
-      background-repeat: no-repeat;
-      background-size: 30%; }
-
-  .clients-1c-wrap {
-    justify-content: space-evenly;
-    row-gap: 25px; }
-    .clients-1c-wrap img {
-      width: 26%; }
-
-  .products-1c_type_wrap_item_img {
-    height: 67px; }
-
-  .img-svg {
-    padding: 10px; } }
-@media (max-width: 1204px) {
-  .footer-cont {
-    flex-direction: column;
-    align-items: center; }
-    .footer-cont-copyright {
-      width: 50%;
-      margin-bottom: 40px;
-      column-gap: 2%;
-      justify-content: flex-end; }
-      .footer-cont-copyright-logo {
-        width: 30%; }
-      .footer-cont-copyright-text {
-        width: 50%; }
-    .footer-cont-contacts {
-      width: 100%; } }
-/* 5_tablet-от 480 до 768*/
-@media (max-width: 768px) {
-  h2 {
-    font-size: 2.1em; } }
-@media (max-width: 768px) {
-  .icon-left-arrow-empty {
-    width: 46px;
-    height: 46px; }
-
-  .icon-right-arrow-empty {
-    width: 46px;
-    height: 46px; } }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .top-header {
     min-height: 60px;
     margin-top: -34px; }
@@ -2117,6 +2054,76 @@ footer {
     visibility: visible; }
 
   /* end */ }
+@media (max-width: 1140px) {
+  .news-wrap {
+    position: relative; }
+    .news-wrap-cols {
+      flex-direction: column; }
+
+  .news__title {
+    margin-bottom: 35px; }
+    .news__title h2::after {
+      display: none; }
+
+  .news__block {
+    width: 100%; }
+
+  .benefit-news {
+    display: none; } }
+@media (max-width: 941px) {
+  .news__item {
+    width: 49%; } }
+@media (max-width: 980px) {
+  .cases_wrap_onecase_btn {
+    width: 72%; } }
+@media (max-width: 1024px) {
+  .form-1c {
+    height: auto; }
+    .form-1c_wrap {
+      flex-direction: column;
+      row-gap: 20px;
+      background-position: 94% -100%;
+      background-repeat: no-repeat;
+      background-size: 30%; }
+
+  .clients-1c-wrap {
+    justify-content: space-evenly;
+    row-gap: 25px; }
+    .clients-1c-wrap img {
+      width: 26%; }
+
+  .products-1c_type_wrap_item_img {
+    height: 67px; }
+
+  .img-svg {
+    padding: 10px; } }
+@media (max-width: 1204px) {
+  .footer-cont {
+    flex-direction: column;
+    align-items: center; }
+    .footer-cont-copyright {
+      width: 50%;
+      margin-bottom: 40px;
+      column-gap: 2%;
+      justify-content: flex-end; }
+      .footer-cont-copyright-logo {
+        width: 30%; }
+      .footer-cont-copyright-text {
+        width: 50%; }
+    .footer-cont-contacts {
+      width: 100%; } }
+/* 5_tablet-от 480 до 768*/
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2.1em; } }
+@media (max-width: 768px) {
+  .icon-left-arrow-empty {
+    width: 46px;
+    height: 46px; }
+
+  .icon-right-arrow-empty {
+    width: 46px;
+    height: 46px; } }
 @media (max-width: 930px) {
   .cover-header-subtitle p:nth-child(1) {
     display: none; }

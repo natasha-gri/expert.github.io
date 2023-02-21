@@ -44,6 +44,17 @@
     right: 11%;
 }
 }
+@media (max-width: 1280px){
+  .slider-buttons2-wrap{
+    right: 10%;
+}
+}
+@media (max-width: 1024px){
+  .slider-buttons2-wrap{
+    right: 10%;
+    bottom: -65px;
+}
+}
 .slider-buttons2-wrap .icon-left-arrow-empty{
 width: 40px;
 height: 40px;
