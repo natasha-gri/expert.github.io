@@ -13,7 +13,7 @@
   display: none;
 }
 .navbar-toggler{
-  width: 54px;
+  // width: 48px;
   padding: 0;
   line-height: 1.4;
   border: none;
@@ -27,6 +27,9 @@
   font-size: 41px;
 }
 @media (max-width: 360px){
+  .navbar-toggler{
+    width: 48px;
+  }
   .navbar-toggler-icon{  
   font-size: 34px;
   } 
